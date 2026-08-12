@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Island Blue - MonsterDex</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar: Search and List -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>MonsterDex</h1>
+                <input type="text" id="search-input" placeholder="Search monsters...">
+                
+                <div class="filter-group">
+                    <select id="element-filter">
+                        <option value="All">All Elements</option>
+                        <option value="Fire">Fire</option>
+                        <option value="Water">Water</option>
+                        <option value="Earth">Earth</option>
+                        <option value="Air">Air</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="monster-list" id="monster-list">
+                <!-- Monsters populated by JS -->
+            </div>
+        </aside>
+
+        <!-- Main Content: Detail View -->
+        <main class="main-content">
+            <div id="monster-detail" class="monster-detail empty-state">
+                <div class="empty-message">
+                    <h2>Select a monster to view details</h2>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
