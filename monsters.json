@@ -19,8 +19,20 @@
     "image": "MerKing-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Endergate",
         "chance": 50
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
       },
       {
         "zone": "Cave of Endergate",
@@ -39,11 +51,11 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -156,7 +168,15 @@
       },
       {
         "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
         "chance": 60
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -208,6 +228,18 @@
       {
         "zone": "No Man's Castle",
         "chance": 100
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -248,6 +280,14 @@
     "id": "MerWarrior",
     "image": "MerWarrior-hd.png",
     "locations": [
+      {
+        "zone": "North Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Cave",
+        "chance": "Boss"
+      },
       {
         "zone": "Pirate's Cave",
         "chance": 100
@@ -464,6 +504,50 @@
       {
         "zone": "Applefield",
         "chance": 50
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -575,6 +659,10 @@
       },
       {
         "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
         "chance": 30
       },
       {
@@ -582,11 +670,11 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -594,8 +682,8 @@
         "chance": 50
       },
       {
-        "zone": "Underworld",
-        "chance": 50
+        "zone": "Giant Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Underworld",
@@ -656,6 +744,26 @@
       {
         "zone": "Underworld",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": 50
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -811,6 +919,10 @@
     "id": "Slime",
     "image": "Slime-hd.png",
     "locations": [
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
       {
         "zone": "Ringfeld",
         "chance": 100
@@ -1008,6 +1120,10 @@
       {
         "zone": "Western Gracia",
         "chance": 30
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -1049,16 +1165,28 @@
     "image": "Djinn-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -1155,6 +1283,10 @@
     "image": "GoldDragon-hd.png",
     "locations": [
       {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
         "zone": "Eastern Gracia",
         "chance": 1
       }
@@ -1250,16 +1382,40 @@
     "image": "WaterDragon-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -1359,6 +1515,14 @@
     "image": "RedDragonling-hd.png",
     "locations": [
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
         "zone": "Ringfeld",
         "chance": 1
       }
@@ -1403,7 +1567,36 @@
     "index": 80100,
     "id": "UltimateDragon",
     "image": "UltimateDragon-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Ruins",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ruins",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ruins",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "GammaBurst",
@@ -1444,16 +1637,72 @@
     "image": "FireDragon-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -1507,16 +1756,32 @@
     "image": "Pyrohydra-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -1564,7 +1829,12 @@
     "index": 100,
     "id": "RedBabyDragon",
     "image": "RedBabyDragon-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Mother",
@@ -1599,7 +1869,24 @@
     "index": 300,
     "id": "RedDragon",
     "image": "RedDragon-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "ManEater",
@@ -1651,6 +1938,10 @@
     "id": "WhiteDragon",
     "image": "WhiteDragon-hd.png",
     "locations": [
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
       {
         "zone": "South Earlsome",
         "chance": 1
@@ -1704,16 +1995,40 @@
     "image": "SnowDragon-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -1770,7 +2085,12 @@
     "index": 700,
     "id": "BlueDragon",
     "image": "BlueDragon-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "OceanRuler",
@@ -1856,16 +2176,40 @@
     "image": "RedDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -1908,16 +2252,44 @@
     "image": "LightDragon-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -2017,16 +2389,32 @@
     "image": "Cryohydra-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -2068,16 +2456,24 @@
     "image": "GoldDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -2119,16 +2515,24 @@
     "image": "WhiteDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -2174,12 +2578,28 @@
         "chance": 100
       },
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Sanctuary",
         "chance": 50
       },
       {
         "zone": "Sanctuary",
         "chance": 50
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
       },
       {
         "zone": "Giant Mangal",
@@ -2188,6 +2608,26 @@
       {
         "zone": "Giant Mangal",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
       },
       {
         "zone": "Ringfeld",
@@ -2236,6 +2676,10 @@
       {
         "zone": "Western Gracia",
         "chance": 10
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Eastern Gracia",
@@ -2389,16 +2833,24 @@
     "image": "BlueDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -2588,6 +3040,10 @@
     "image": "BeastmanKing-hd.png",
     "locations": [
       {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Endergate",
         "chance": 30
       },
@@ -2616,11 +3072,11 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -2804,8 +3260,16 @@
         "chance": 20
       },
       {
-        "zone": "North Earlsome",
-        "chance": 10
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "North Earlsome",
@@ -2818,6 +3282,18 @@
       {
         "zone": "North Earlsome",
         "chance": 10
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": 10
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Endergate",
@@ -2859,6 +3335,22 @@
         "chance": 100
       },
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Endergate",
         "chance": 100
       },
@@ -2867,6 +3359,14 @@
         "chance": 60
       },
       {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
         "zone": "Wesburn",
         "chance": 50
       },
@@ -3081,6 +3581,90 @@
       {
         "zone": "Swinedene",
         "chance": 50
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       },
       {
         "zone": "Swinedene",
@@ -3153,6 +3737,10 @@
     "id": "Reptilo",
     "image": "Reptilo-hd.png",
     "locations": [
+      {
+        "zone": "North Cave",
+        "chance": "Boss"
+      },
       {
         "zone": "Pirate's Cave",
         "chance": 20
@@ -3227,6 +3815,18 @@
       {
         "zone": "Cave of Endergate",
         "chance": 50
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -3268,11 +3868,35 @@
     "image": "Yacare-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -3298,6 +3922,10 @@
       {
         "zone": "Ruins",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Underworld",
@@ -3392,8 +4020,52 @@
         "chance": 20
       },
       {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
         "zone": "Saintspring",
         "chance": 20
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -3514,16 +4186,28 @@
     "image": "Ganesha-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -3568,6 +4252,10 @@
     "id": "SerpentKnight",
     "image": "SerpentKnight-hd.png",
     "locations": [
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
       {
         "zone": "Western Gracia",
         "chance": 100
@@ -3712,16 +4400,28 @@
     "image": "Minotaur-hd.png",
     "locations": [
       {
-        "zone": "Lighthouse",
-        "chance": 200
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
       },
       {
         "zone": "Lighthouse",
         "chance": 200
       },
       {
-        "zone": "Northern Alvalon",
-        "chance": 50
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": 200
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
       },
       {
         "zone": "Northern Alvalon",
@@ -3730,6 +4430,30 @@
       {
         "zone": "Northern Alvalon",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": 50
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -3781,6 +4505,22 @@
       {
         "zone": "Pirate's Cave",
         "chance": 100
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
       },
       {
         "zone": "Southern Alvalon",
@@ -3864,6 +4604,102 @@
       {
         "zone": "Unknown Relic",
         "chance": 300
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -3998,8 +4834,80 @@
     "image": "Destroyer-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Endergate",
         "chance": 30
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -4062,6 +4970,38 @@
     "image": "SamuraiMaster-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
         "zone": "Applefield",
         "chance": 10
       },
@@ -4080,6 +5020,46 @@
       {
         "zone": "Saintspring",
         "chance": 10
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -4120,7 +5100,184 @@
     "index": 80320,
     "id": "Wendigo",
     "image": "Wendigo-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "DesparateAttack",
@@ -4167,7 +5324,32 @@
     "index": 80700,
     "id": "Goemon",
     "image": "Goemon-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Musashi",
@@ -4318,12 +5500,32 @@
         "chance": 50
       },
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
         "zone": "Giant Mangal",
         "chance": 50
       },
       {
         "zone": "Giant Mangal",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -4367,7 +5569,16 @@
     "index": 20500,
     "id": "Cyclops",
     "image": "Cyclops-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Norwoods",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Norwoods",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "MetalSlasher",
@@ -4409,6 +5620,10 @@
       {
         "zone": "No Man's Castle",
         "chance": 100
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
       },
       {
         "zone": "Western Gracia",
@@ -4502,11 +5717,11 @@
         "chance": 10
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -4514,6 +5729,14 @@
         "chance": 50
       },
       {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
         "zone": "Applefield",
         "chance": 100
       },
@@ -4548,6 +5771,30 @@
       {
         "zone": "Endergate",
         "chance": 20
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -4593,16 +5840,24 @@
     "image": "CatRider3-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -4674,6 +5929,10 @@
       {
         "zone": "Giant Mangal",
         "chance": 10
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -4718,7 +5977,28 @@
     "index": 80410,
     "id": "Ifrit",
     "image": "Ifrit-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "MagicField",
@@ -4758,11 +6038,11 @@
     "image": "Decimator-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -4821,16 +6101,44 @@
     "image": "Blademaster-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -4881,6 +6189,18 @@
     "locations": [
       {
         "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
@@ -4894,6 +6214,18 @@
       {
         "zone": "Forest of Mangal",
         "chance": 100
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -4931,16 +6263,48 @@
     "image": "ThunderMage-hd.png",
     "locations": [
       {
-        "zone": "Cave of Earlsome",
-        "chance": 100
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
       },
       {
         "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Sanctuary",
-        "chance": 50
+        "zone": "Cave of Earlsome",
+        "chance": 100
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Sanctuary",
@@ -4959,19 +6323,23 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -5065,6 +6433,22 @@
       {
         "zone": "Underworld",
         "chance": 50
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Swinedene",
@@ -5146,6 +6530,10 @@
         "chance": 100
       },
       {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
         "zone": "Safaris",
         "chance": 100
       },
@@ -5201,8 +6589,36 @@
         "chance": 100
       },
       {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
         "zone": "Igneous Passage",
         "chance": 150
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Western Gracia",
@@ -5400,16 +6816,84 @@
     "image": "GriffinRider-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -5514,6 +6998,14 @@
     "image": "SunAssassin-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Earlsome",
         "chance": 100
       },
@@ -5524,6 +7016,14 @@
       {
         "zone": "Sanctuary",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -5661,8 +7161,20 @@
     "image": "BeastKnight-hd.png",
     "locations": [
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
         "zone": "Greater Wesing",
         "chance": 100
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
       },
       {
         "zone": "Safaris",
@@ -5744,16 +7256,48 @@
     "image": "BloodKnight-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -5880,6 +7424,22 @@
       {
         "zone": "Forest of Mangal",
         "chance": 100
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -5925,16 +7485,48 @@
     "image": "KemetKing-hd.png",
     "locations": [
       {
-        "zone": "Giant Mangal",
-        "chance": 60
+        "zone": "Lighthouse",
+        "chance": "Boss"
       },
       {
         "zone": "Giant Mangal",
         "chance": 60
       },
       {
-        "zone": "Western Gracia",
-        "chance": 10
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": 60
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Western Gracia",
@@ -5947,6 +7539,14 @@
       {
         "zone": "Western Gracia",
         "chance": 10
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": 10
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -5988,11 +7588,31 @@
     "image": "BloodAssassin-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -6020,8 +7640,8 @@
         "chance": 50
       },
       {
-        "zone": "Underworld",
-        "chance": 50
+        "zone": "Giant Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Underworld",
@@ -6082,6 +7702,62 @@
       {
         "zone": "Underworld",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": 50
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -6147,16 +7823,36 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Wesburn",
@@ -6438,6 +8134,14 @@
         "chance": 20
       },
       {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
         "zone": "Safaris",
         "chance": 5
       },
@@ -6456,6 +8160,10 @@
       {
         "zone": "Safaris",
         "chance": 7
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Norwoods",
@@ -6499,6 +8207,34 @@
       {
         "zone": "Holy Cave",
         "chance": 30
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
       },
       {
         "zone": "Wesburn",
@@ -6604,16 +8340,80 @@
     "image": "Multiclops-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Norwoods",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -6663,11 +8463,19 @@
         "chance": 20
       },
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -6759,6 +8567,14 @@
         "chance": 50
       },
       {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
         "zone": "Wesburn",
         "chance": 10
       },
@@ -6785,6 +8601,14 @@
       {
         "zone": "South Earlsome",
         "chance": 30
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -6872,16 +8696,200 @@
     "image": "Shogun-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -6936,8 +8944,20 @@
     "image": "Yeti-hd.png",
     "locations": [
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
         "zone": "Northern Alvalon",
         "chance": 5
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
       },
       {
         "zone": "Safaris",
@@ -7078,12 +9098,20 @@
         "chance": 60
       },
       {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
         "zone": "Western Gracia",
         "chance": 70
       },
       {
         "zone": "Western Gracia",
         "chance": 70
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Eastern Gracia",
@@ -7145,6 +9173,14 @@
     "image": "KemetGod-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Earlsome",
         "chance": 100
       },
@@ -7157,11 +9193,11 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -7420,11 +9456,11 @@
         "chance": 10
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -7452,8 +9488,100 @@
         "chance": 50
       },
       {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
         "zone": "Applefield",
         "chance": 50
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -7508,8 +9636,40 @@
         "chance": 10
       },
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Ringfeld",
         "chance": 35
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "North Earlsome",
@@ -7575,15 +9735,55 @@
     "image": "GiantAnt-hd.png",
     "locations": [
       {
-        "zone": "Lighthouse",
-        "chance": 50
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
       },
       {
         "zone": "Lighthouse",
         "chance": 50
       },
       {
-        "zone": "Northern Alvalon",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
@@ -7601,6 +9801,50 @@
       {
         "zone": "Northern Alvalon",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
       },
       {
         "zone": "Ringfeld",
@@ -7749,6 +9993,10 @@
     "image": "Pincer-hd.png",
     "locations": [
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
         "zone": "Giant Mangal",
         "chance": 100
       },
@@ -7771,6 +10019,10 @@
       {
         "zone": "Forest of Mangal",
         "chance": 100
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -7813,23 +10065,59 @@
     "image": "Megaslug-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Endergate",
         "chance": 20
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
       },
       {
         "zone": "Cave of Endergate",
         "chance": 100
       },
       {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
         "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -7921,8 +10209,28 @@
         "chance": 50
       },
       {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
         "zone": "Applefield",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -7931,10 +10239,54 @@
       {
         "zone": "Applefield",
         "chance": 50
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       },
       {
         "zone": "Endergate",
         "chance": 50
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       },
       {
         "zone": "Swinedene",
@@ -7997,6 +10349,10 @@
       {
         "zone": "Giant Mangal",
         "chance": 100
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Forest of Mangal",
@@ -8132,19 +10488,27 @@
         "chance": 100
       },
       {
-        "zone": "Sanctuary",
-        "chance": 50
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
       },
       {
         "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -8234,6 +10598,18 @@
       {
         "zone": "Underworld",
         "chance": 50
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -8431,6 +10807,18 @@
         "chance": 100
       },
       {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Giant Mangal",
         "chance": 60
       },
@@ -8444,9 +10832,21 @@
       },
       {
         "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
         "chance": 70
       },
       {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": 50
+      },
+      {
         "zone": "North Earlsome",
         "chance": 50
       },
@@ -8456,7 +10856,7 @@
       },
       {
         "zone": "North Earlsome",
-        "chance": 50
+        "chance": "Boss"
       },
       {
         "zone": "Swinedene",
@@ -8555,6 +10955,18 @@
     "locations": [
       {
         "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
@@ -8564,6 +10976,18 @@
       {
         "zone": "Lighthouse",
         "chance": 50
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
       },
       {
         "zone": "Western Gracia",
@@ -8692,7 +11116,12 @@
     "index": 30600,
     "id": "Evil",
     "image": "Evil-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Ater",
@@ -8735,7 +11164,12 @@
     "index": 30700,
     "id": "Fear",
     "image": "Fear-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Vortex",
@@ -8778,7 +11212,16 @@
     "index": 30800,
     "id": "Thought",
     "image": "Thought-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "BlackHole",
@@ -8821,7 +11264,12 @@
     "index": 30100,
     "id": "Fire",
     "image": "Fire-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "ResistBreak",
@@ -8864,7 +11312,12 @@
     "index": 30200,
     "id": "Fate",
     "image": "Fate-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Wall",
@@ -8907,7 +11360,12 @@
     "index": 30500,
     "id": "Karma",
     "image": "Karma-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Neutralize",
@@ -8950,7 +11408,20 @@
     "index": 31001,
     "id": "Shenron",
     "image": "Shenron-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Ruins",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ruins",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ruins",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Earthquake",
@@ -8985,7 +11456,16 @@
     "index": 31000,
     "id": "Time",
     "image": "Time-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "The Abyss (not catchable)",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "CosmicWind",
@@ -9028,7 +11508,12 @@
     "index": 30400,
     "id": "Energy",
     "image": "Energy-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Ultrasonar",
@@ -9071,7 +11556,12 @@
     "index": 30000,
     "id": "Resistance",
     "image": "Resistance-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "North Cave",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Survivor",
@@ -9110,7 +11600,24 @@
     "index": 30900,
     "id": "Divine",
     "image": "Divine-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Neutralize",
@@ -9153,7 +11660,12 @@
     "index": 30300,
     "id": "Aggression",
     "image": "Aggression-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Ultrasonic",
@@ -9203,6 +11715,38 @@
       {
         "zone": "Holy Cave",
         "chance": 10
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Endergate",
@@ -9264,16 +11808,20 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Wesburn",
@@ -9385,7 +11933,20 @@
     "index": 15800,
     "id": "NightCrawler",
     "image": "NightCrawler-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Horror",
@@ -9427,7 +11988,16 @@
     "index": 20200,
     "id": "SkullCrow",
     "image": "SkullCrow-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Ultrasonic",
@@ -9467,16 +12037,20 @@
     "image": "Demios-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -9518,16 +12092,48 @@
     "image": "Guardian-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -9581,11 +12187,11 @@
     "image": "Centurion-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -9613,6 +12219,14 @@
         "chance": 50
       },
       {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
         "zone": "Applefield",
         "chance": 10
       },
@@ -9631,6 +12245,46 @@
       {
         "zone": "Saintspring",
         "chance": 10
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -9676,16 +12330,40 @@
     "image": "BoneDragon-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Sanctuary",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "VolcanoB",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -9737,6 +12415,14 @@
       {
         "zone": "Holy Cave",
         "chance": 50
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Wesburn",
@@ -9844,7 +12530,28 @@
     "index": 20400,
     "id": "LichKing",
     "image": "LichKing-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "StoneGlance",
@@ -9884,16 +12591,44 @@
     "image": "DeathCrawler-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -9947,16 +12682,20 @@
     "image": "MageBane-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10002,16 +12741,36 @@
     "image": "Juggernaut-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10049,16 +12808,108 @@
     "image": "Dementor-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10169,6 +13020,22 @@
       },
       {
         "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
         "chance": 25
       },
       {
@@ -10223,20 +13090,44 @@
     "image": "Spartan-hd.png",
     "locations": [
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
         "zone": "Giant Mangal",
         "chance": 50
       },
       {
         "zone": "Giant Mangal",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Ringfeld",
         "chance": 65
       },
       {
-        "zone": "Western Gracia",
-        "chance": 10
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
       },
       {
         "zone": "Western Gracia",
@@ -10249,6 +13140,18 @@
       {
         "zone": "Western Gracia",
         "chance": 10
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": 10
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10428,6 +13331,26 @@
       {
         "zone": "Cave of Earlsome",
         "chance": 10
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10461,16 +13384,20 @@
     "image": "Bastion-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10516,16 +13443,36 @@
     "image": "Titan-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10677,11 +13624,11 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -10927,6 +13874,22 @@
       },
       {
         "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
@@ -10940,6 +13903,14 @@
       {
         "zone": "Swinedene",
         "chance": 50
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -10981,16 +13952,56 @@
     "image": "AquaHorror-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -11071,16 +14082,128 @@
     "image": "TigerSwarm-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -11123,6 +14246,10 @@
       },
       {
         "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
@@ -11136,6 +14263,14 @@
       {
         "zone": "Sanctuary",
         "chance": 50
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -11233,16 +14368,28 @@
     "image": "Leviathan-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -11400,6 +14547,14 @@
       },
       {
         "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
@@ -11413,6 +14568,14 @@
       {
         "zone": "Sanctuary",
         "chance": 50
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -11457,6 +14620,10 @@
       {
         "zone": "Swinedene",
         "chance": 50
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -11533,6 +14700,14 @@
       },
       {
         "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
@@ -11548,11 +14723,11 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -11578,6 +14753,30 @@
       {
         "zone": "Ruins",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -11622,6 +14821,10 @@
       {
         "zone": "Swinedene",
         "chance": 50
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -11655,16 +14858,68 @@
     "image": "DeepWhale-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -11760,11 +15015,23 @@
     "image": "Nessie-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -11790,6 +15057,30 @@
       {
         "zone": "Ruins",
         "chance": 50
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -11834,6 +15125,10 @@
     "id": "BlueSeahorse",
     "image": "BlueSeahorse-hd.png",
     "locations": [
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
       {
         "zone": "Safaris",
         "chance": 70
@@ -11891,6 +15186,10 @@
       },
       {
         "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
         "chance": 50
       },
       {
@@ -11938,16 +15237,20 @@
     "image": "Archdemon-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -12004,7 +15307,28 @@
     "index": 20800,
     "id": "Demon",
     "image": "Demon-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Overdrive",
@@ -12115,7 +15439,19 @@
       },
       {
         "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
         "chance": 200
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
       },
       {
         "zone": "Giant Mangal",
@@ -12196,6 +15532,10 @@
       {
         "zone": "Norwoods",
         "chance": 100
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -12236,6 +15576,10 @@
     "id": "Sphinxling",
     "image": "Sphinxling-hd.png",
     "locations": [
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
       {
         "zone": "Igneous Passage",
         "chance": 20
@@ -12308,8 +15652,20 @@
     "image": "Tengu-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Earlsome",
         "chance": 10
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Cave of Earlsome",
@@ -12317,19 +15673,55 @@
       },
       {
         "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
         "chance": 10
       },
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       },
       {
         "zone": "Endergate",
@@ -12438,8 +15830,20 @@
     "image": "Beholder-hd.png",
     "locations": [
       {
-        "zone": "Sanctuary",
-        "chance": 50
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Sanctuary",
@@ -12454,11 +15858,15 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -12530,8 +15938,24 @@
         "chance": 50
       },
       {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Saintspring",
         "chance": 50
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       },
       {
         "zone": "Endergate",
@@ -12597,11 +16021,11 @@
         "chance": 30
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -12691,6 +16115,34 @@
       {
         "zone": "Underworld",
         "chance": 50
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Saintspring",
@@ -12770,7 +16222,28 @@
     "index": 13500,
     "id": "Sphinx",
     "image": "Sphinx-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "AttackBreak",
@@ -12816,7 +16289,156 @@
     "index": 80210,
     "id": "Morfeus",
     "image": "Morfeus-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "MassHypnosis",
@@ -12903,16 +16525,48 @@
     "image": "SphinxMaster-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -12970,16 +16624,56 @@
     "image": "DreamHunter-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -13015,7 +16709,12 @@
     "index": 80710,
     "id": "Doki",
     "image": "Doki-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "BigBrother",
@@ -13049,6 +16748,10 @@
       {
         "zone": "Cave of Earlsome",
         "chance": 100
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Saintspring",
@@ -13176,7 +16879,20 @@
     "index": 80850,
     "id": "Asura",
     "image": "Asura-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Clone",
@@ -13240,7 +16956,23 @@
       },
       {
         "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "No Man's Castle",
         "chance": 100
+      },
+      {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
       },
       {
         "zone": "Greater Wesing",
@@ -13274,16 +17006,32 @@
     "image": "Teddy-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -13342,6 +17090,14 @@
     "locations": [
       {
         "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
@@ -13349,8 +17105,16 @@
         "chance": 50
       },
       {
-        "zone": "Wesburn",
-        "chance": 20
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
       },
       {
         "zone": "Wesburn",
@@ -13383,6 +17147,18 @@
       {
         "zone": "Wesburn",
         "chance": 20
+      },
+      {
+        "zone": "Wesburn",
+        "chance": 20
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
       },
       {
         "zone": "South Earlsome",
@@ -13492,11 +17268,15 @@
     "image": "ShadowTiger-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -13544,7 +17324,44 @@
     "index": 80200,
     "id": "UltimatePanther",
     "image": "UltimatePanther-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Ater",
@@ -13605,7 +17422,23 @@
       },
       {
         "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
         "chance": 2
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -13640,6 +17473,10 @@
     "image": "FireTiger-hd.png",
     "locations": [
       {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Sanctuary",
         "chance": 10
       },
@@ -13664,11 +17501,11 @@
         "chance": 10
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -13676,8 +17513,40 @@
         "chance": 50
       },
       {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
         "zone": "Applefield",
         "chance": 20
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       },
       {
         "zone": "Saintspring",
@@ -13739,11 +17608,11 @@
     "image": "LionKing-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -13813,6 +17682,22 @@
       {
         "zone": "Underworld",
         "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -13859,7 +17744,48 @@
     "index": 80000,
     "id": "Leo",
     "image": "Leo-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "MightyGuard",
@@ -13919,6 +17845,22 @@
         "chance": 10
       },
       {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
         "zone": "Applefield",
         "chance": 5
       }
@@ -13955,6 +17897,10 @@
     "image": "SnowPanther-hd.png",
     "locations": [
       {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Sanctuary",
         "chance": 10
       },
@@ -13979,16 +17925,48 @@
         "chance": 10
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Underworld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       },
       {
         "zone": "Saintspring",
@@ -14056,6 +18034,14 @@
       {
         "zone": "Southern Alvalon",
         "chance": 2
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -14090,11 +18076,71 @@
     "locations": [
       {
         "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
         "zone": "Holy Cave",
         "chance": 100
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
       },
       {
         "zone": "Wesburn",
@@ -14454,11 +18500,11 @@
         "chance": 100
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -14530,6 +18576,18 @@
         "chance": 50
       },
       {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": "Boss"
+      },
+      {
         "zone": "Wesburn",
         "chance": 20
       },
@@ -14588,6 +18646,18 @@
       {
         "zone": "Saintspring",
         "chance": 50
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       },
       {
         "zone": "Swinedene",
@@ -14710,16 +18780,76 @@
     "image": "Archangel-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -14769,16 +18899,92 @@
     "image": "SpikeMonster-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -14908,8 +19114,24 @@
     "image": "Tsuchinoko-hd.png",
     "locations": [
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
         "zone": "Southern Alvalon",
         "chance": 15
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -15006,11 +19228,11 @@
         "chance": 100
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -15022,12 +19244,36 @@
         "chance": 50
       },
       {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
         "zone": "Western Gracia",
         "chance": 30
       },
       {
         "zone": "Western Gracia",
         "chance": 30
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Eastern Gracia",
@@ -15189,16 +19435,104 @@
     "image": "Orochi-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Norwoods",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       },
       {
         "zone": "Saintspring",
@@ -15344,8 +19678,28 @@
         "chance": 50
       },
       {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Giant Mangal",
         "chance": 60
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
       },
       {
         "zone": "Ringfeld",
@@ -15370,6 +19724,22 @@
       {
         "zone": "Western Gracia",
         "chance": 100
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -15467,11 +19837,39 @@
       },
       {
         "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
         "chance": 5
       },
       {
-        "zone": "Sanctuary",
-        "chance": 10
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
       },
       {
         "zone": "Sanctuary",
@@ -15486,16 +19884,80 @@
         "chance": 10
       },
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
+        "chance": 10
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -15574,6 +20036,18 @@
     "image": "SpikeBall-hd.png",
     "locations": [
       {
+        "zone": "No Man's Castle",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
         "zone": "Western Gracia",
         "chance": 30
       },
@@ -15635,7 +20109,52 @@
     "index": 80020,
     "id": "Gamera",
     "image": "Gamera-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Detonate",
@@ -15695,16 +20214,28 @@
     "image": "Spikey-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -15746,8 +20277,20 @@
     "image": "SnakeGod-hd.png",
     "locations": [
       {
-        "zone": "Sanctuary",
-        "chance": 50
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
       },
       {
         "zone": "Sanctuary",
@@ -15766,11 +20309,15 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -15829,16 +20376,136 @@
     "image": "TurtleKing-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Swinedene",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -15953,7 +20620,32 @@
     "index": 80010,
     "id": "DonPen",
     "image": "DonPen-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Baggins",
@@ -16005,16 +20697,36 @@
     "image": "Carnoraptor-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -16064,6 +20776,10 @@
         "chance": 100
       },
       {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
         "zone": "Western Gracia",
         "chance": 100
       },
@@ -16092,6 +20808,10 @@
         "chance": 100
       },
       {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
         "zone": "Safaris",
         "chance": 100
       },
@@ -16110,6 +20830,10 @@
       {
         "zone": "Safaris",
         "chance": 70
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
       },
       {
         "zone": "Safaris",
@@ -16251,6 +20975,10 @@
         "chance": 50
       },
       {
+        "zone": "Pirate's Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Norwoods",
         "chance": 10
       },
@@ -16304,7 +21032,52 @@
     "index": 5000,
     "id": "DireWolf",
     "image": "DireWolf-hd.png",
-    "locations": [],
+    "locations": [
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      }
+    ],
     "moves": [
       {
         "name": "Enrage",
@@ -16345,14 +21118,18 @@
       },
       {
         "zone": "Cave of Endergate",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -16511,6 +21288,10 @@
     "image": "Cockatrice-hd.png",
     "locations": [
       {
+        "zone": "North Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Earlsome",
         "chance": 100
       },
@@ -16540,6 +21321,18 @@
       },
       {
         "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
         "chance": 50
       },
       {
@@ -16565,6 +21358,10 @@
       {
         "zone": "Ringfeld",
         "chance": 50
+      },
+      {
+        "zone": "Ringfeld",
+        "chance": "Boss"
       },
       {
         "zone": "Ringfeld",
@@ -16581,6 +21378,18 @@
       {
         "zone": "Safaris",
         "chance": 100
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -16626,8 +21435,52 @@
     "image": "SpikeCrab-hd.png",
     "locations": [
       {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
         "zone": "Cave of Endergate",
         "chance": 30
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Giant Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Wesburn",
+        "chance": "Boss"
       },
       {
         "zone": "Applefield",
@@ -16698,6 +21551,18 @@
         "chance": 100
       },
       {
+        "zone": "North Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Cave",
+        "chance": "Boss"
+      },
+      {
         "zone": "Southern Alvalon",
         "chance": 50
       },
@@ -16712,6 +21577,10 @@
       {
         "zone": "Southern Alvalon",
         "chance": 50
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
       },
       {
         "zone": "Southern Alvalon",
@@ -16774,8 +21643,20 @@
         "chance": 30
       },
       {
+        "zone": "Lighthouse",
+        "chance": "Boss"
+      },
+      {
         "zone": "Southern Alvalon",
         "chance": 15
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Southern Alvalon",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -16825,11 +21706,11 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -17230,8 +22111,44 @@
     "image": "UnhappyBird-hd.png",
     "locations": [
       {
-        "zone": "Sanctuary",
-        "chance": 50
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Holy Cave",
+        "chance": "Boss"
       },
       {
         "zone": "Sanctuary",
@@ -17246,11 +22163,15 @@
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
@@ -17340,6 +22261,150 @@
       {
         "zone": "Underworld",
         "chance": 50
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Greater Wesing",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "North Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
       }
     ],
     "moves": [
@@ -17373,16 +22438,220 @@
     "image": "WolfGod-hd.png",
     "locations": [
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
-        "zone": "The Abyss",
+        "zone": "The Abyss (not catchable)",
         "chance": 50
       },
       {
         "zone": "VolcanoB",
         "chance": 50
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Forest of Mangal",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "South Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
       }
     ],
     "moves": [
