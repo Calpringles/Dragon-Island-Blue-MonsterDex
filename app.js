@@ -367,3 +367,22 @@ function getMoveDescription(type, name) {
 }
 
 init();
+
+
+// UI Routing
+function showView(viewId) {
+    document.querySelectorAll('.view-section').forEach(el => {
+        el.style.display = 'none';
+        el.classList.remove('active');
+    });
+    const target = document.getElementById(viewId);
+    if (target) {
+        target.style.display = viewId === 'main-menu-view' ? 'flex' : 'block';
+        target.classList.add('active');
+    }
+}
+
+function toggleInfoModal() {
+    const modal = document.getElementById('info-modal');
+    modal.style.display = modal.style.display === 'none' ? 'flex' : 'none';
+}

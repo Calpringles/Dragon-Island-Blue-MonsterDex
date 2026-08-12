@@ -8,49 +8,115 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="app-container">
-        <!-- Sidebar: Search and List -->
-        <aside class="sidebar">
-            <div class="sidebar-header">
-                <h1>MonsterDex</h1>
-                <input type="text" id="search-input" placeholder="Search monsters...">
-                
-                <div class="filter-group" style="display:flex; flex-direction:column; gap:8px;">
-                    <select id="element-filter">
-                        <option value="All">All Elements</option>
-                        <option value="Fire">Fire</option>
-                        <option value="Water">Water</option>
-                        <option value="Earth">Earth</option>
-                        <option value="Air">Air</option>
-                    </select>
-                    <div style="display:flex; gap:8px;">
-                        <select id="sort-filter" style="flex:1; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.6); color: var(--text-primary); font-size: 14px; cursor: pointer;">
-                            <option value="index">Index (Default)</option>
-                            <option value="name">Name</option>
-                            <option value="element">Element</option>
-                            <option value="stars">Star Rating</option>
-                            <option value="stats">Base Stats Total</option>
-                        </select>
-                        <button id="sort-dir-btn" style="padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.6); color: var(--text-primary); cursor: pointer; transition: background 0.2s;">⬆️</button>
-                    </div>
-                </div>
+
+    <!-- MAIN MENU VIEW -->
+    <div id="main-menu-view" class="view-section active">
+        <button id="info-btn" class="info-btn" onclick="toggleInfoModal()">i</button>
+        
+        <div class="menu-container">
+            <div class="logo">
+                <div class="logo-subtitle">Welcome to the</div>
+                <h1 class="logo-title">MonsterDex</h1>
+                <div class="logo-app-name">Dragon Island Blue</div>
             </div>
             
-            <div class="monster-list" id="monster-list">
-                <!-- Monsters populated by JS -->
+            <div class="menu-buttons">
+                <button class="menu-btn" onclick="showView('monster-dex-view')">MonsterDex</button>
+                <button class="menu-btn" onclick="showView('battle-dex-view')">Battle Dex</button>
+                <button class="menu-btn btn-exit" onclick="window.close()">Exit</button>
             </div>
-        </aside>
+        </div>
+    </div>
 
-        <!-- Main Content: Detail View -->
-        <main class="main-content">
-            <div id="monster-detail" class="monster-detail empty-state">
-                <div class="empty-message">
-                    <h2>Select a monster to view details</h2>
+    <!-- INFO MODAL -->
+    <div id="info-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-btn" onclick="toggleInfoModal()">&times;</span>
+            <h2>About MonsterDex</h2>
+            <p>Welcome to the Dragon Island Blue MonsterDex!</p>
+            <p><strong>MonsterDex:</strong> A comprehensive encyclopedia of all monsters in the game. View their stats, evolution lines, moves, and encounter locations.</p>
+            <p><strong>Battle Dex:</strong> A detailed guide to every NPC battle in the game. Review trainer dialogue, team compositions, levels, and associated quests.</p>
+        </div>
+    </div>
+
+    <!-- MONSTER DEX VIEW -->
+    <div id="monster-dex-view" class="view-section" style="display:none;">
+        <div class="top-nav">
+            <button class="back-btn" onclick="showView('main-menu-view')">&larr; Back to Menu</button>
+        </div>
+        <div class="app-container">
+            <!-- Sidebar: Search and List -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h1>MonsterDex</h1>
+                    <input type="text" id="search-input" placeholder="Search monsters...">
+                    
+                    <div class="filter-group" style="display:flex; flex-direction:column; gap:8px;">
+                        <select id="element-filter">
+                            <option value="All">All Elements</option>
+                            <option value="Fire">Fire</option>
+                            <option value="Water">Water</option>
+                            <option value="Earth">Earth</option>
+                            <option value="Air">Air</option>
+                        </select>
+                        <div style="display:flex; gap:8px;">
+                            <select id="sort-filter" style="flex:1; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.6); color: var(--text-primary); font-size: 14px; cursor: pointer;">
+                                <option value="index">Index (Default)</option>
+                                <option value="name">Name</option>
+                                <option value="element">Element</option>
+                                <option value="stars">Star Rating</option>
+                                <option value="stats">Base Stats Total</option>
+                            </select>
+                            <button id="sort-dir-btn" style="padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.6); color: var(--text-primary); cursor: pointer; transition: background 0.2s;">↓</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </main>
+                
+                <div class="monster-list" id="monster-list">
+                    <!-- Monsters populated by JS -->
+                </div>
+            </aside>
+
+            <!-- Main Content: Detail View -->
+            <main class="main-content">
+                <div id="monster-detail" class="monster-detail empty-state">
+                    <div class="empty-message">
+                        <h2>Select a monster to view details</h2>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- BATTLE DEX VIEW -->
+    <div id="battle-dex-view" class="view-section" style="display:none;">
+        <div class="top-nav">
+            <button class="back-btn" onclick="showView('main-menu-view')">&larr; Back to Menu</button>
+        </div>
+        <div class="app-container">
+            <!-- Sidebar: Search and List -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h1>Battle Dex</h1>
+                    <input type="text" id="battle-search-input" placeholder="Search trainers...">
+                </div>
+                <div class="monster-list" id="battle-list">
+                    <!-- Battles populated by JS -->
+                </div>
+            </aside>
+
+            <!-- Main Content: Detail View -->
+            <main class="main-content">
+                <div id="battle-detail" class="monster-detail empty-state">
+                    <div class="empty-message">
+                        <h2>Select a battle to view details</h2>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
     
     <script src="app.js"></script>
+    <script src="battleDex.js"></script>
 </body>
 </html>
