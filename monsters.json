@@ -19,35 +19,35 @@
     "image": "MerKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 50
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -206,7 +206,7 @@
     "image": "MerHunter-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       }
     ],
@@ -249,19 +249,19 @@
     "image": "MerWarrior-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
@@ -340,7 +340,7 @@
     "image": "MerPrince-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6a",
+        "zone": "Igneous Passage",
         "chance": 80
       },
       {
@@ -422,15 +422,15 @@
     "image": "Sludge-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
@@ -566,31 +566,31 @@
     "image": "KingSlime-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 30
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -887,11 +887,11 @@
     "image": "Finder-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 20
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 30
       },
       {
@@ -986,7 +986,7 @@
     "image": "Mask-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 50
       },
       {
@@ -1049,15 +1049,15 @@
     "image": "Djinn-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -1250,15 +1250,15 @@
     "image": "WaterDragon-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -1444,15 +1444,15 @@
     "image": "FireDragon-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -1507,15 +1507,15 @@
     "image": "Pyrohydra-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -1704,15 +1704,15 @@
     "image": "SnowDragon-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -1856,15 +1856,15 @@
     "image": "RedDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -1908,15 +1908,15 @@
     "image": "LightDragon-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -2017,15 +2017,15 @@
     "image": "Cryohydra-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -2068,15 +2068,15 @@
     "image": "GoldDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -2119,15 +2119,15 @@
     "image": "WhiteDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -2170,23 +2170,23 @@
     "image": "Drake-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 50
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 50
       },
       {
@@ -2389,15 +2389,15 @@
     "image": "BlueDragonKnight-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -2493,7 +2493,7 @@
     "image": "Beastman-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6b",
+        "zone": "Igneous Passage",
         "chance": 100
       },
       {
@@ -2588,43 +2588,43 @@
     "image": "BeastmanKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 30
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -2800,7 +2800,7 @@
     "image": "ElephantFighter-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 20
       },
       {
@@ -2855,15 +2855,15 @@
     "image": "MinotaurBrute-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 60
       },
       {
@@ -3154,27 +3154,27 @@
     "image": "Reptilo-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 20
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 30
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 20
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 30
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 30
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 30
       },
       {
@@ -3225,7 +3225,7 @@
     "image": "SerpentMage-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 50
       }
     ],
@@ -3268,35 +3268,35 @@
     "image": "Yacare-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -3443,7 +3443,7 @@
     "image": "ReptileLord-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6a",
+        "zone": "Igneous Passage",
         "chance": 50
       },
       {
@@ -3514,15 +3514,15 @@
     "image": "Ganesha-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -3712,11 +3712,11 @@
     "image": "Minotaur-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 200
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 200
       },
       {
@@ -3767,19 +3767,19 @@
     "image": "Goblin-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
@@ -3862,7 +3862,7 @@
     "image": "SnowMan-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 300
       }
     ],
@@ -3998,7 +3998,7 @@
     "image": "Destroyer-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 30
       },
       {
@@ -4219,19 +4219,19 @@
     "image": "Assassin-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 200
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 200
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
@@ -4306,23 +4306,23 @@
     "image": "DarkMage-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 50
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 50
       }
     ],
@@ -4403,11 +4403,11 @@
     "image": "DarkPriest-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
@@ -4494,23 +4494,23 @@
     "image": "Ninja-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -4593,15 +4593,15 @@
     "image": "CatRider3-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -4668,11 +4668,11 @@
     "image": "BloodWarrior-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 10
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 10
       }
     ],
@@ -4758,15 +4758,15 @@
     "image": "Decimator-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -4821,15 +4821,15 @@
     "image": "Blademaster-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -4880,11 +4880,11 @@
     "image": "Sasuke-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
@@ -4931,75 +4931,75 @@
     "image": "ThunderMage-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -5122,7 +5122,7 @@
     "image": "BloodPriest-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
@@ -5189,19 +5189,19 @@
     "image": "Gnoll-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_6b",
+        "zone": "Igneous Passage",
         "chance": 150
       },
       {
@@ -5400,15 +5400,15 @@
     "image": "GriffinRider-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -5455,7 +5455,7 @@
     "image": "SunPriest-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
@@ -5514,15 +5514,15 @@
     "image": "SunAssassin-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       }
     ],
@@ -5577,11 +5577,11 @@
     "image": "Treehead-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
@@ -5744,15 +5744,15 @@
     "image": "BloodKnight-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -5807,7 +5807,7 @@
     "image": "Spark-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -5874,7 +5874,7 @@
     "image": "SunWarrior-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -5925,11 +5925,11 @@
     "image": "KemetKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
@@ -5988,35 +5988,35 @@
     "image": "BloodAssassin-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -6135,27 +6135,27 @@
     "image": "Pyro-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 80
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -6434,7 +6434,7 @@
     "image": "Kappa-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 20
       },
       {
@@ -6497,7 +6497,7 @@
     "image": "Rider-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 30
       },
       {
@@ -6604,15 +6604,15 @@
     "image": "Multiclops-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -6655,43 +6655,43 @@
     "image": "Kaguya-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 20
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 20
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -6872,15 +6872,15 @@
     "image": "Shogun-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -7074,7 +7074,7 @@
     "image": "IceYeti-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6b",
+        "zone": "Igneous Passage",
         "chance": 60
       },
       {
@@ -7145,27 +7145,27 @@
     "image": "KemetGod-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -7404,51 +7404,51 @@
     "image": "Champion-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -7504,7 +7504,7 @@
     "image": "Samurai-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 10
       },
       {
@@ -7575,11 +7575,11 @@
     "image": "GiantAnt-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
@@ -7650,31 +7650,31 @@
     "image": "GiantWasp-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
@@ -7749,11 +7749,11 @@
     "image": "Pincer-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -7813,47 +7813,47 @@
     "image": "Megaslug-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 20
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -7995,7 +7995,7 @@
     "image": "Mutation-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -8049,11 +8049,11 @@
     "image": "Stinger-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
@@ -8128,47 +8128,47 @@
     "image": "TerrorClaw-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -8427,15 +8427,15 @@
     "image": "WaspQueen-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 30
       },
       {
@@ -8554,15 +8554,15 @@
     "image": "DevilWorm-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
@@ -9201,7 +9201,7 @@
     "image": "Legionnaire-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 10
       },
       {
@@ -9256,23 +9256,23 @@
     "image": "Grimoire-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -9467,15 +9467,15 @@
     "image": "Demios-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -9518,15 +9518,15 @@
     "image": "Guardian-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -9581,35 +9581,35 @@
     "image": "Centurion-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -9676,15 +9676,15 @@
     "image": "BoneDragon-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -9731,11 +9731,11 @@
     "image": "Bane-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 50
       },
       {
@@ -9884,15 +9884,15 @@
     "image": "DeathCrawler-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -9947,15 +9947,15 @@
     "image": "MageBane-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -10002,15 +10002,15 @@
     "image": "Juggernaut-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -10049,15 +10049,15 @@
     "image": "Dementor-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -10104,15 +10104,15 @@
     "image": "Vampire-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 70
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 70
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -10164,15 +10164,15 @@
     "image": "Lich-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 50
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 25
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 50
       },
       {
@@ -10223,11 +10223,11 @@
     "image": "Spartan-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 50
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 50
       },
       {
@@ -10282,15 +10282,15 @@
     "image": "Bones-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
@@ -10422,11 +10422,11 @@
     "image": "LightCrawler-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 10
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 10
       }
     ],
@@ -10461,15 +10461,15 @@
     "image": "Bastion-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -10516,15 +10516,15 @@
     "image": "Titan-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -10567,19 +10567,19 @@
     "image": "BabyNessie-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 20
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 30
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 10
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 30
       },
       {
@@ -10626,7 +10626,7 @@
     "image": "Shark-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 100
       },
       {
@@ -10669,23 +10669,23 @@
     "image": "ElderSeahorse-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -10759,7 +10759,7 @@
     "image": "IronFish-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       }
     ],
@@ -10797,7 +10797,7 @@
     "image": "MutantFish-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 100
       }
     ],
@@ -10836,7 +10836,7 @@
     "image": "WhitePiranha-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 100
       },
       {
@@ -10875,7 +10875,7 @@
     "image": "SeaMaiden-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6a",
+        "zone": "Igneous Passage",
         "chance": 100
       }
     ],
@@ -10922,11 +10922,11 @@
     "image": "DarkRazorfish-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 50
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
@@ -10981,15 +10981,15 @@
     "image": "AquaHorror-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -11071,15 +11071,15 @@
     "image": "TigerSwarm-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -11118,23 +11118,23 @@
     "image": "SeaCaliph-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 50
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
@@ -11233,15 +11233,15 @@
     "image": "Leviathan-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -11297,15 +11297,15 @@
     "image": "WhiteDolphin-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 15
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 20
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 20
       },
       {
@@ -11352,7 +11352,7 @@
     "image": "WhiteSeahorse-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6a",
+        "zone": "Igneous Passage",
         "chance": 80
       }
     ],
@@ -11395,23 +11395,23 @@
     "image": "CeolaKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 50
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
@@ -11497,7 +11497,7 @@
     "image": "ArmorFish-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       }
     ],
@@ -11528,55 +11528,55 @@
     "image": "SeaDragon-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 50
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -11655,15 +11655,15 @@
     "image": "DeepWhale-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -11721,7 +11721,7 @@
     "image": "Razorfish-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6a",
+        "zone": "Igneous Passage",
         "chance": 100
       }
     ],
@@ -11760,35 +11760,35 @@
     "image": "Nessie-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       }
     ],
@@ -11886,15 +11886,15 @@
     "image": "TerrorShark-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 50
       },
       {
-        "zone": "Dungeon_6a",
+        "zone": "Igneous Passage",
         "chance": 50
       }
     ],
@@ -11938,15 +11938,15 @@
     "image": "Archdemon-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -12086,39 +12086,39 @@
     "image": "Imp-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 200
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -12237,7 +12237,7 @@
     "image": "Sphinxling-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_6b",
+        "zone": "Igneous Passage",
         "chance": 20
       },
       {
@@ -12308,27 +12308,27 @@
     "image": "Tengu-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 10
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 5
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 10
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -12391,15 +12391,15 @@
     "image": "Watcher-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 70
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 70
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -12438,31 +12438,31 @@
     "image": "Beholder-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -12589,43 +12589,43 @@
     "image": "DarkSpirit-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 30
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 30
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 50
       },
       {
@@ -12860,11 +12860,11 @@
     "image": "LichEye-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       }
     ],
@@ -12903,15 +12903,15 @@
     "image": "SphinxMaster-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -12970,15 +12970,15 @@
     "image": "DreamHunter-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -13043,11 +13043,11 @@
     "image": "Abomination-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
@@ -13138,11 +13138,11 @@
     "image": "EvilEye-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
@@ -13231,15 +13231,15 @@
     "image": "DreamEater-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 50
       },
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
@@ -13274,15 +13274,15 @@
     "image": "Teddy-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -13341,11 +13341,11 @@
     "image": "GoldLion-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 50
       },
       {
@@ -13492,15 +13492,15 @@
     "image": "ShadowTiger-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -13592,15 +13592,15 @@
     "image": "SnowCub-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 16
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 16
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 10
       },
       {
@@ -13640,39 +13640,39 @@
     "image": "FireTiger-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 5
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 5
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -13739,15 +13739,15 @@
     "image": "LionKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -13907,15 +13907,15 @@
     "image": "FireCub-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 16
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 16
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 10
       },
       {
@@ -13955,39 +13955,39 @@
     "image": "SnowPanther-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 5
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 5
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -14089,11 +14089,11 @@
     "image": "FairyQueen-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
@@ -14340,11 +14340,11 @@
     "image": "Fairy-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
@@ -14446,23 +14446,23 @@
     "image": "AngelicBird-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -14710,15 +14710,15 @@
     "image": "Archangel-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -14769,15 +14769,15 @@
     "image": "SpikeMonster-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -14832,31 +14832,31 @@
     "image": "Penguin-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
@@ -14947,15 +14947,15 @@
     "image": "GiantCrab-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 100
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 100
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 100
       },
       {
@@ -15002,23 +15002,23 @@
     "image": "SteelSnake-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_6b",
+        "zone": "Igneous Passage",
         "chance": 50
       },
       {
@@ -15149,7 +15149,7 @@
     "image": "GiantBat-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       }
     ],
@@ -15189,15 +15189,15 @@
     "image": "Orochi-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -15256,15 +15256,15 @@
     "image": "BatSquirrel-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 50
       },
       {
@@ -15340,11 +15340,11 @@
     "image": "FlameWing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 50
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
@@ -15415,7 +15415,7 @@
     "image": "Doombat-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 60
       },
       {
@@ -15462,39 +15462,39 @@
     "image": "ThunderWolf-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 10
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 5
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 10
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -15695,15 +15695,15 @@
     "image": "Spikey-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -15746,35 +15746,35 @@
     "image": "SnakeGod-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -15829,15 +15829,15 @@
     "image": "TurtleKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -15892,7 +15892,7 @@
     "image": "BatFiend-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_3",
+        "zone": "No Man's Castle",
         "chance": 100
       },
       {
@@ -16005,15 +16005,15 @@
     "image": "Carnoraptor-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
@@ -16056,11 +16056,11 @@
     "image": "Manticore-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -16247,7 +16247,7 @@
     "image": "Kingpen-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -16340,27 +16340,27 @@
     "image": "CrabKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 100
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_6a",
+        "zone": "Igneous Passage",
         "chance": 50
       },
       {
@@ -16511,19 +16511,19 @@
     "image": "Cockatrice-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 50
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
-        "zone": "Dungeon_9",
+        "zone": "Giant Mangal",
         "chance": 100
       },
       {
@@ -16626,7 +16626,7 @@
     "image": "SpikeCrab-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_13",
+        "zone": "Cave of Endergate",
         "chance": 30
       },
       {
@@ -16686,15 +16686,15 @@
     "image": "Bitewing-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 100
       },
       {
@@ -16766,11 +16766,11 @@
     "image": "Wolf-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 30
       },
       {
-        "zone": "Dungeon_7",
+        "zone": "Lighthouse",
         "chance": 30
       },
       {
@@ -16809,31 +16809,31 @@
     "image": "BatKing-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_11",
+        "zone": "Holy Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_12",
+        "zone": "Cave of Earlsome",
         "chance": 100
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
@@ -17143,23 +17143,23 @@
     "image": "GiantTurtle-hd.png",
     "locations": [
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 50
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 50
       },
       {
-        "zone": "Dark Cave",
+        "zone": "North Cave",
         "chance": 50
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
-        "zone": "Dungeon_4",
+        "zone": "Pirate's Cave",
         "chance": 100
       },
       {
@@ -17230,51 +17230,51 @@
     "image": "UnhappyBird-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_14",
+        "zone": "Sanctuary",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 300
       },
       {
-        "zone": "Dungeon_16",
+        "zone": "Unknown Relic",
         "chance": 300
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 300
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 300
       },
       {
-        "zone": "Dungeon_17",
+        "zone": "Ruins",
         "chance": 700
       },
       {
@@ -17373,15 +17373,15 @@
     "image": "WolfGod-hd.png",
     "locations": [
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15",
+        "zone": "The Abyss",
         "chance": 50
       },
       {
-        "zone": "Dungeon_15b",
+        "zone": "VolcanoB",
         "chance": 50
       }
     ],
