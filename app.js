@@ -51,7 +51,7 @@ function handleFilter() {
     const sortType = sortFilter.value;
     
     let filtered = monstersList.filter(m => {
-        const matchesSearch = m.id.toLowerCase().includes(searchTerm);
+        const matchesSearch = (m.name || m.id).toLowerCase().includes(searchTerm);
         const matchesElement = element === 'All' || m.element === element;
         return matchesSearch && matchesElement;
     });
@@ -59,7 +59,7 @@ function handleFilter() {
     filtered.sort((a, b) => {
         let valA, valB;
         switch(sortType) {
-            case 'name': valA = a.id.toLowerCase(); valB = b.id.toLowerCase(); break;
+            case 'name': valA = (a.name || a.id).toLowerCase(); valB = (b.name || b.id).toLowerCase(); break;
             case 'element': valA = a.element || ''; valB = b.element || ''; break;
             case 'stars': valA = a.stars || 0; valB = b.stars || 0; break;
             case 'stats': valA = a.bst || 0; valB = b.bst || 0; break;
@@ -98,9 +98,9 @@ function renderList(list) {
         const stars = monster.stars ? `★`.repeat(Math.floor(monster.stars)) : '';
         
         item.innerHTML = `
-            <img src="images/${monster.image}" alt="${monster.id}" class="monster-thumb" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCI+PC9zdmc+'">
+            <img src="images/${monster.image}" alt="${monster.name || monster.id}" class="monster-thumb" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCI+PC9zdmc+'">
             <div class="monster-item-info">
-                <h3>${monster.id}</h3>
+                <h3>${monster.name || monster.id}</h3>
                 <p>
                     <span class="element-badge element-${monster.element}">${monster.element || 'Normal'}</span> 
                     <span style="color:#fbbf24; margin-left:8px;">${stars}</span>
@@ -175,16 +175,16 @@ function renderDetail(monster) {
             evoHtml = `
                 <div class="evolution-path">
                     <div class="evo-node">
-                        <img src="images/${monster.image}" alt="${monster.id}">
-                        <span>${monster.id}</span>
+                        <img src="images/${monster.image}" alt="${monster.name || monster.id}">
+                        <span>${monster.name || monster.id}</span>
                     </div>
                     <div class="evo-arrow">
                         <div class="evo-condition">Level ${monster.evolveData.levelReq || '?'}</div>
                         →
                     </div>
                     <div class="evo-node" style="cursor:pointer;" onclick="selectMonsterById('${target.id}')">
-                        <img src="images/${target.image}" alt="${target.id}">
-                        <span>${target.id}</span>
+                        <img src="images/${target.image}" alt="${target.name || target.id}">
+                        <span>${target.name || target.id}</span>
                     </div>
                 </div>
             `;
@@ -197,10 +197,10 @@ function renderDetail(monster) {
     detailEl.innerHTML = `
         <div class="detail-header">
             <div class="detail-image-container">
-                <img src="images/${monster.image}" alt="${monster.id}" class="detail-image" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCI+PC9zdmc+'">
+                <img src="images/${monster.image}" alt="${monster.name || monster.id}" class="detail-image" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCI+PC9zdmc+'">
             </div>
             <div class="detail-title-area">
-                <h2>${monster.id}</h2>
+                <h2>${monster.name || monster.id}</h2>
                 <div class="detail-meta">
                     <span class="element-badge element-${monster.element}">${monster.element || 'Normal'}</span>
                     <span class="quality-stars">${stars}</span>
