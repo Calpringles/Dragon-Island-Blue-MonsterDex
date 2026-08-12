@@ -168,27 +168,63 @@ function renderDetail(monster) {
         : '<li><span class="text-secondary">Unknown location</span></li>';
         
     // Generate Evolution HTML
-    let evoHtml = `<p class="text-secondary">Does not evolve further</p>`;
-    if (monster.evolveData && monster.evolveData.newType) {
-        const target = monstersData[monster.evolveData.newType];
-        if (target) {
-            evoHtml = `
-                <div class="evolution-path">
-                    <div class="evo-node">
-                        <img src="images/${monster.image}" alt="${monster.name || monster.id}">
-                        <span>${monster.name || monster.id}</span>
-                    </div>
-                    <div class="evo-arrow">
-                        <div class="evo-condition">Level ${monster.evolveData.levelReq || '?'}</div>
-                        →
-                    </div>
-                    <div class="evo-node" style="cursor:pointer;" onclick="selectMonsterById('${target.id}')">
-                        <img src="images/${target.image}" alt="${target.name || target.id}">
-                        <span>${target.name || target.id}</span>
-                    </div>
+    let chain = [];
+    
+    // Find root
+    let currentId = monster.id;
+    let foundParent = true;
+    while(foundParent) {
+        foundParent = false;
+        for (const [key, m] of Object.entries(monstersData)) {
+            if (m.evolveData && m.evolveData.newType === currentId) {
+                currentId = m.id;
+                foundParent = true;
+                break;
+            }
+        }
+    }
+    
+    // Build chain forwards from root
+    let currentMonster = monstersData[currentId];
+    while(currentMonster) {
+        chain.push(currentMonster);
+        if (currentMonster.evolveData && currentMonster.evolveData.newType) {
+            currentMonster = monstersData[currentMonster.evolveData.newType];
+        } else {
+            currentMonster = null;
+        }
+    }
+
+    let evoHtml = `<p class="text-secondary">Does not evolve</p>`;
+    if (chain.length > 1) {
+        let nodesHtml = chain.map((m, index) => {
+            const isCurrent = m.id === monster.id;
+            const borderStyle = isCurrent ? 'border: 2px solid var(--accent-color);' : '';
+            
+            let html = `
+                <div class="evo-node" style="cursor:pointer;" onclick="selectMonsterById('${m.id}')">
+                    <img src="images/${m.image}" alt="${m.name || m.id}" style="${borderStyle}">
+                    <span style="${isCurrent ? 'color: var(--accent-color); font-weight: bold;' : ''}">${m.name || m.id}</span>
                 </div>
             `;
-        }
+            
+            if (index < chain.length - 1) {
+                const req = m.evolveData.levelReq || '?';
+                html += `
+                    <div class="evo-arrow">
+                        <div class="evo-condition">Level ${req}</div>
+                        →
+                    </div>
+                `;
+            }
+            return html;
+        }).join('');
+        
+        evoHtml = `
+            <div class="evolution-path" style="flex-wrap: wrap; gap: 16px;">
+                ${nodesHtml}
+            </div>
+        `;
     }
     
     const stars = monster.stars ? `★`.repeat(Math.floor(monster.stars)) : '';
