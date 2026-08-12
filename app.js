@@ -139,12 +139,22 @@ function renderDetail(monster) {
     
     // Generate Moves HTML
     const movesHtml = (monster.moves || []).length > 0 
-        ? monster.moves.map(m => `
-            <li>
-                <span class="move-name">${m.name}</span>
-                <span class="move-type">${m.type.split('.').pop() || 'Attack'}</span>
+        ? monster.moves.map(m => {
+            const desc = getMoveDescription(m.type, m.name);
+            return `
+            <li style="cursor: pointer; flex-direction: column; align-items: flex-start;" onclick="toggleMoveDesc(this)">
+                <div style="display:flex; justify-content:space-between; width:100%;">
+                    <span class="move-name">${m.name}</span>
+                    <span class="move-type" style="display:flex; gap:12px; align-items:center;">
+                        <span style="color:var(--accent-color); font-weight:bold;">${m.tu || 100} TU</span>
+                        <span style="opacity:0.6;">${m.type.split('.').pop() || 'Attack'}</span>
+                    </span>
+                </div>
+                <div class="move-desc" style="display:none; margin-top:8px; font-size:0.9em; color:var(--text-secondary); width:100%; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 8px;">
+                    ${desc}
+                </div>
             </li>
-        `).join('')
+        `}).join('')
         : '<li><span class="text-secondary">No specific abilities known</span></li>';
         
     // Generate Locations HTML
@@ -288,5 +298,72 @@ window.selectMonsterById = function(id) {
         el.click();
     }
 };
+
+window.toggleMoveDesc = function(el) {
+    const desc = el.querySelector('.move-desc');
+    if (desc.style.display === 'none') {
+        desc.style.display = 'block';
+        el.style.background = 'rgba(255, 255, 255, 0.05)';
+    } else {
+        desc.style.display = 'none';
+        el.style.background = 'transparent';
+    }
+};
+
+function getMoveDescription(type, name) {
+    if (!type) return "No description available.";
+    
+    const parts = type.split('.');
+    const baseType = parts[parts.length - 1];
+    const category = parts[0];
+    
+    if (baseType.includes('All')) {
+        if (category === 'Offensive') {
+            const el = parts.length > 2 ? parts[1] : '';
+            return `Deals ${el} damage to all enemies.`;
+        }
+        if (category === 'Defensive' && baseType.includes('Up')) {
+            const stat = baseType.replace('UpAll', '');
+            return `Increases ${stat} for all allies.`;
+        }
+    }
+    
+    if (baseType.includes('DownAttack')) {
+        const stat = baseType.replace('DownAttack', '');
+        return `Deals damage and lowers target's ${stat}.`;
+    }
+    
+    if (baseType.includes('Up')) {
+        const stat = baseType.replace('Up', '');
+        return `Increases target's ${stat}.`;
+    }
+    
+    if (baseType.includes('Down')) {
+        const stat = baseType.replace('Down', '');
+        return `Lowers target's ${stat}.`;
+    }
+    
+    if (category === 'Offensive') {
+        const el = parts.length > 2 ? parts[1] : 'physical';
+        if (baseType === 'DrainHealth') return "Deals damage and heals the user.";
+        if (baseType === 'DeathSentence') return "Inflicts Death Sentence on target.";
+        return `Deals ${el} damage to a single enemy.`;
+    }
+    
+    if (category === 'Defensive') {
+        if (baseType === 'Heal') return "Restores HP to a single ally.";
+        if (baseType === 'HealAll') return "Restores HP to all allies.";
+        return "Grants a defensive buff.";
+    }
+    
+    if (category === 'Utility') {
+        if (baseType === 'StatusRemove') return "Cures negative status effects.";
+        if (baseType === 'CallMonster') return "Summons a monster.";
+        if (baseType === 'Escape') return "Flee from battle.";
+        return "Utility ability.";
+    }
+    
+    return "Special ability.";
+}
 
 init();
