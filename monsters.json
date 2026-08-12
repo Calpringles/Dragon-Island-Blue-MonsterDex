@@ -16,6 +16,7 @@
     },
     "index": 7100,
     "id": "MerKing",
+    "name": "Mer King",
     "image": "MerKing-hd.png",
     "locations": [
       {
@@ -189,10 +190,6 @@
         "type": "Defensive.MagicUpAll"
       },
       {
-        "name": "Waterjet",
-        "type": "Offensive.Water.Water"
-      },
-      {
         "name": "MagicWall",
         "type": "Defensive.ResistUpAll"
       },
@@ -223,6 +220,7 @@
     },
     "index": 6800,
     "id": "MerHunter",
+    "name": "Mer Hunter",
     "image": "MerHunter-hd.png",
     "locations": [
       {
@@ -278,6 +276,7 @@
     },
     "index": 6900,
     "id": "MerWarrior",
+    "name": "Mer Warrior",
     "image": "MerWarrior-hd.png",
     "locations": [
       {
@@ -377,6 +376,7 @@
     },
     "index": 7000,
     "id": "MerPrince",
+    "name": "Mer Prince",
     "image": "MerPrince-hd.png",
     "locations": [
       {
@@ -459,6 +459,7 @@
     },
     "index": 4400,
     "id": "Sludge",
+    "name": "Sludge",
     "image": "Sludge-hd.png",
     "locations": [
       {
@@ -561,74 +562,309 @@
       }
     ]
   },
-  "Metal": {
-    "MetalSlime": {
-      "category": "Normal",
-      "parent": "RootMonster",
-      "rendererData": {
-        "scale": 0.8
-      },
-      "eggUnlockQuality": 8,
-      "unarmedAttackType": "Slash",
-      "element": "Arcane",
-      "stars": 5.5,
-      "quality": 14,
-      "rootStats": {
-        "Attack": 3,
-        "Resist": 17,
-        "Defense": 17,
-        "Speed": 25,
-        "Magic": 3,
-        "MaxHP": 27
-      },
-      "index": 15450
+  "MetalSlime": {
+    "category": "Normal",
+    "parent": "RootMonster",
+    "rendererData": {
+      "scale": 0.8
     },
-    "KingMetal": {
-      "category": "Combine",
-      "parent": "RootMonster",
-      "unarmedAttackType": "Slash",
-      "element": "Arcane",
-      "stars": 10,
-      "quality": 1,
-      "rootStats": {
-        "Attack": 3,
-        "Resist": 26,
-        "Defense": 26,
-        "Speed": 25,
-        "Magic": 1,
-        "MaxHP": 30
-      },
-      "index": 23456
+    "eggUnlockQuality": 8,
+    "unarmedAttackType": "Slash",
+    "element": "Arcane",
+    "stars": 5.5,
+    "quality": 14,
+    "rootStats": {
+      "Attack": 3,
+      "Resist": 17,
+      "Defense": 17,
+      "Speed": 25,
+      "Magic": 3,
+      "MaxHP": 27
     },
-    "MetalSludge": {
-      "category": "Normal",
-      "parent": "RootMonster",
-      "rendererData": {
-        "scale": 0.7
+    "index": 15450,
+    "id": "MetalSlime",
+    "name": "Iron Slime",
+    "image": "MetalSlime-hd.png",
+    "locations": [
+      {
+        "zone": "Cave of Endergate",
+        "chance": "Boss"
       },
-      "eggUnlockQuality": 4,
-      "unarmedAttackType": "Slash",
-      "element": "Arcane",
-      "evolveData": {
-        "levelReq": 37,
-        "newType": "MetalSlime"
+      {
+        "zone": "Cave of Endergate",
+        "chance": 5
       },
-      "stars": 4,
-      "quality": 11,
-      "rootStats": {
-        "Attack": 1,
-        "Resist": 14,
-        "Defense": 14,
-        "Speed": 20,
-        "Magic": 1,
-        "MaxHP": 22
+      {
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
       },
-      "index": 6450
+      {
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "VolcanoB",
+        "chance": 50
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": 10
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Saintspring",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Endergate",
+        "chance": 10
+      },
+      {
+        "zone": "Endergate",
+        "chance": 10
+      },
+      {
+        "zone": "Endergate",
+        "chance": 10
+      },
+      {
+        "zone": "Swinedene",
+        "chance": 50
+      },
+      {
+        "zone": "Swinedene",
+        "chance": 50
+      },
+      {
+        "zone": "Swinedene",
+        "chance": 50
+      },
+      {
+        "zone": "Swinedene",
+        "chance": 5
+      }
+    ],
+    "moves": [
+      {
+        "name": "Escape",
+        "type": "Utility.Escape"
+      },
+      {
+        "name": "Ooze",
+        "type": "Offensive.Attack"
+      },
+      {
+        "name": "EasyTarget",
+        "type": "Passive.Generic"
+      }
+    ]
+  },
+  "KingMetal": {
+    "category": "Combine",
+    "parent": "RootMonster",
+    "unarmedAttackType": "Slash",
+    "element": "Arcane",
+    "stars": 10,
+    "quality": 1,
+    "rootStats": {
+      "Attack": 3,
+      "Resist": 26,
+      "Defense": 26,
+      "Speed": 25,
+      "Magic": 1,
+      "MaxHP": 30
     },
-    "id": "Metal",
-    "image": "Metal-hd.png",
-    "locations": [],
-    "moves": []
+    "index": 23456,
+    "id": "KingMetal",
+    "name": "Iron King",
+    "image": "KingMetal-hd.png",
+    "locations": [
+      {
+        "zone": "Cave of Earlsome",
+        "chance": "Boss"
+      },
+      {
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "The Abyss (not catchable)",
+        "chance": 50
+      },
+      {
+        "zone": "VolcanoB",
+        "chance": 50
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Northern Alvalon",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Applefield",
+        "chance": "Boss"
+      }
+    ],
+    "moves": [
+      {
+        "name": "Press",
+        "type": "Offensive.Attack"
+      },
+      {
+        "name": "MightyGuard",
+        "type": "Defensive.GuardUpAll"
+      },
+      {
+        "name": "ScapeGoat",
+        "type": "Defensive.Scapegoat"
+      },
+      {
+        "name": "NoGuard",
+        "type": "Defensive.ShiftDefenseToAttack"
+      },
+      {
+        "name": "EasyTarget",
+        "type": "Passive.Generic"
+      }
+    ]
+  },
+  "MetalSludge": {
+    "category": "Normal",
+    "parent": "RootMonster",
+    "rendererData": {
+      "scale": 0.7
+    },
+    "eggUnlockQuality": 4,
+    "unarmedAttackType": "Slash",
+    "element": "Arcane",
+    "evolveData": {
+      "levelReq": 37,
+      "newType": "MetalSlime"
+    },
+    "stars": 4,
+    "quality": 11,
+    "rootStats": {
+      "Attack": 1,
+      "Resist": 14,
+      "Defense": 14,
+      "Speed": 20,
+      "Magic": 1,
+      "MaxHP": 22
+    },
+    "index": 6450,
+    "id": "MetalSludge",
+    "name": "Iron Sludge",
+    "image": "MetalSludge-hd.png",
+    "locations": [
+      {
+        "zone": "Western Gracia",
+        "chance": 2
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": 2
+      },
+      {
+        "zone": "Western Gracia",
+        "chance": 2
+      },
+      {
+        "zone": "Safaris",
+        "chance": 1
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Safaris",
+        "chance": "Boss"
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": 5
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": 5
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": 5
+      },
+      {
+        "zone": "Eastern Gracia",
+        "chance": 5
+      }
+    ],
+    "moves": [
+      {
+        "name": "Escape",
+        "type": "Utility.Escape"
+      },
+      {
+        "name": "Ooze",
+        "type": "Offensive.Attack"
+      },
+      {
+        "name": "EasyTarget",
+        "type": "Passive.Generic"
+      }
+    ]
   },
   "KingSlime": {
     "category": "Normal",
@@ -647,6 +883,7 @@
     },
     "index": 4600,
     "id": "KingSlime",
+    "name": "King Slime",
     "image": "KingSlime-hd.png",
     "locations": [
       {
@@ -917,6 +1154,7 @@
     },
     "index": 4500,
     "id": "Slime",
+    "name": "Slime",
     "image": "Slime-hd.png",
     "locations": [
       {
@@ -996,6 +1234,7 @@
     },
     "index": 10300,
     "id": "Finder",
+    "name": "Finder",
     "image": "Finder-hd.png",
     "locations": [
       {
@@ -1095,6 +1334,7 @@
     },
     "index": 9700,
     "id": "Mask",
+    "name": "Mask",
     "image": "Mask-hd.png",
     "locations": [
       {
@@ -1162,6 +1402,7 @@
     },
     "index": 10400,
     "id": "Djinn",
+    "name": "Djinn",
     "image": "Djinn-hd.png",
     "locations": [
       {
@@ -1205,10 +1446,6 @@
       {
         "name": "Tachyon",
         "type": "Offensive.Arcane.ArcaneAll"
-      },
-      {
-        "name": "Photon",
-        "type": "Offensive.Arcane.Arcane"
       }
     ]
   },
@@ -1237,6 +1474,7 @@
     },
     "index": 1000,
     "id": "WhiteDragonling",
+    "name": "White Dragonling",
     "image": "WhiteDragonling-hd.png",
     "locations": [],
     "moves": [
@@ -1247,10 +1485,6 @@
       {
         "name": "Outrage",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Air.AirMother"
       },
       {
         "name": "Tail",
@@ -1280,6 +1514,7 @@
     },
     "index": 1500,
     "id": "GoldDragon",
+    "name": "Gold Dragon",
     "image": "GoldDragon-hd.png",
     "locations": [
       {
@@ -1306,14 +1541,6 @@
       },
       {
         "name": "Outrage",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Earth.EarthMother"
-      },
-      {
-        "name": "Tail",
         "type": "Offensive.Attack"
       }
     ]
@@ -1343,6 +1570,7 @@
     },
     "index": 500,
     "id": "BlueBabyDragon",
+    "name": "Water Hatchling",
     "image": "BlueBabyDragon-hd.png",
     "locations": [
       {
@@ -1379,6 +1607,7 @@
     },
     "index": 800,
     "id": "WaterDragon",
+    "name": "Blue Wyrm",
     "image": "WaterDragon-hd.png",
     "locations": [
       {
@@ -1432,19 +1661,7 @@
         "type": "Offensive.AttackDownAttack"
       },
       {
-        "name": "RapidWater",
-        "type": "Offensive.Water.Water"
-      },
-      {
         "name": "Outrage",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Water.WaterMother"
-      },
-      {
-        "name": "Tail",
         "type": "Offensive.Attack"
       }
     ]
@@ -1474,6 +1691,7 @@
     },
     "index": 900,
     "id": "WhiteBabyDragon",
+    "name": "Spark Hatchling",
     "image": "WhiteBabyDragon-hd.png",
     "locations": [],
     "moves": [
@@ -1512,6 +1730,7 @@
     },
     "index": 200,
     "id": "RedDragonling",
+    "name": "Red Dragonling",
     "image": "RedDragonling-hd.png",
     "locations": [
       {
@@ -1535,10 +1754,6 @@
       {
         "name": "Outrage",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Fire.FireMother"
       },
       {
         "name": "Tail",
@@ -1566,6 +1781,7 @@
     },
     "index": 80100,
     "id": "UltimateDragon",
+    "name": "Dreadnought",
     "image": "UltimateDragon-hd.png",
     "locations": [
       {
@@ -1634,6 +1850,7 @@
     },
     "index": 400,
     "id": "FireDragon",
+    "name": "Red Wyrm",
     "image": "FireDragon-hd.png",
     "locations": [
       {
@@ -1719,19 +1936,7 @@
         "type": "Offensive.DefenseDownAttack"
       },
       {
-        "name": "Flame",
-        "type": "Offensive.Fire.Fire"
-      },
-      {
         "name": "Outrage",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Fire.FireMother"
-      },
-      {
-        "name": "Tail",
         "type": "Offensive.Attack"
       }
     ]
@@ -1753,6 +1958,7 @@
     },
     "index": 21900,
     "id": "Pyrohydra",
+    "name": "Pyrohydra",
     "image": "Pyrohydra-hd.png",
     "locations": [
       {
@@ -1828,6 +2034,7 @@
     },
     "index": 100,
     "id": "RedBabyDragon",
+    "name": "Fire Hatchling",
     "image": "RedBabyDragon-hd.png",
     "locations": [
       {
@@ -1868,6 +2075,7 @@
     },
     "index": 300,
     "id": "RedDragon",
+    "name": "Red Dragon",
     "image": "RedDragon-hd.png",
     "locations": [
       {
@@ -1903,14 +2111,6 @@
       {
         "name": "Outrage",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Fire.FireMother"
-      },
-      {
-        "name": "Tail",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -1936,6 +2136,7 @@
     },
     "index": 1100,
     "id": "WhiteDragon",
+    "name": "White Dragon",
     "image": "WhiteDragon-hd.png",
     "locations": [
       {
@@ -1963,14 +2164,6 @@
       {
         "name": "Outrage",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Air.AirMother"
-      },
-      {
-        "name": "Tail",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -1992,6 +2185,7 @@
     },
     "index": 1200,
     "id": "SnowDragon",
+    "name": "White Wyrm",
     "image": "SnowDragon-hd.png",
     "locations": [
       {
@@ -2045,19 +2239,7 @@
         "type": "Offensive.MagicDownAttack"
       },
       {
-        "name": "SonicBlast",
-        "type": "Offensive.Air.Air"
-      },
-      {
         "name": "Outrage",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Air.AirMother"
-      },
-      {
-        "name": "Tail",
         "type": "Offensive.Attack"
       }
     ]
@@ -2084,6 +2266,7 @@
     },
     "index": 700,
     "id": "BlueDragon",
+    "name": "Blue Dragon",
     "image": "BlueDragon-hd.png",
     "locations": [
       {
@@ -2106,14 +2289,6 @@
       },
       {
         "name": "Outrage",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Water.WaterMother"
-      },
-      {
-        "name": "Tail",
         "type": "Offensive.Attack"
       }
     ]
@@ -2143,6 +2318,7 @@
     },
     "index": 1300,
     "id": "GoldBabyDragon",
+    "name": "Gold Hatchling",
     "image": "GoldBabyDragon-hd.png",
     "locations": [],
     "moves": [
@@ -2173,6 +2349,7 @@
     },
     "index": 21600,
     "id": "RedDragonKnight",
+    "name": "Red Dragoon",
     "image": "RedDragonKnight-hd.png",
     "locations": [
       {
@@ -2249,6 +2426,7 @@
     },
     "index": 1600,
     "id": "LightDragon",
+    "name": "Gold Wyrm",
     "image": "LightDragon-hd.png",
     "locations": [
       {
@@ -2306,19 +2484,7 @@
         "type": "Offensive.ResistDownAttack"
       },
       {
-        "name": "Landslide",
-        "type": "Offensive.Earth.Earth"
-      },
-      {
         "name": "Outrage",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Earth.EarthMother"
-      },
-      {
-        "name": "Tail",
         "type": "Offensive.Attack"
       }
     ]
@@ -2348,6 +2514,7 @@
     },
     "index": 600,
     "id": "BlueDragonling",
+    "name": "Blue Dragonling",
     "image": "BlueDragonling-hd.png",
     "locations": [],
     "moves": [
@@ -2358,10 +2525,6 @@
       {
         "name": "Outrage",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Water.WaterMother"
       },
       {
         "name": "Tail",
@@ -2386,6 +2549,7 @@
     },
     "index": 22100,
     "id": "Cryohydra",
+    "name": "Cryohydra",
     "image": "Cryohydra-hd.png",
     "locations": [
       {
@@ -2453,6 +2617,7 @@
     },
     "index": 21500,
     "id": "GoldDragonKnight",
+    "name": "Gold Dragoon",
     "image": "GoldDragonKnight-hd.png",
     "locations": [
       {
@@ -2512,6 +2677,7 @@
     },
     "index": 21700,
     "id": "WhiteDragonKnight",
+    "name": "White Dragoon",
     "image": "WhiteDragonKnight-hd.png",
     "locations": [
       {
@@ -2571,6 +2737,7 @@
     },
     "index": 5200,
     "id": "Drake",
+    "name": "Drake",
     "image": "Drake-hd.png",
     "locations": [
       {
@@ -2830,6 +2997,7 @@
     },
     "index": 21300,
     "id": "BlueDragonKnight",
+    "name": "Blue Dragoon",
     "image": "BlueDragonKnight-hd.png",
     "locations": [
       {
@@ -2897,6 +3065,7 @@
     },
     "index": 1400,
     "id": "GoldDragonling",
+    "name": "Gold Dragonling",
     "image": "GoldDragonling-hd.png",
     "locations": [],
     "moves": [
@@ -2907,10 +3076,6 @@
       {
         "name": "Outrage",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Mother",
-        "type": "Offensive.Earth.EarthMother"
       },
       {
         "name": "Tail",
@@ -2942,6 +3107,7 @@
     },
     "index": 13200,
     "id": "Beastman",
+    "name": "Beastman",
     "image": "Beastman-hd.png",
     "locations": [
       {
@@ -3037,6 +3203,7 @@
     },
     "index": 13300,
     "id": "BeastmanKing",
+    "name": "Beastman King",
     "image": "BeastmanKing-hd.png",
     "locations": [
       {
@@ -3253,6 +3420,7 @@
     },
     "index": 13900,
     "id": "ElephantFighter",
+    "name": "Stomper",
     "image": "ElephantFighter-hd.png",
     "locations": [
       {
@@ -3328,6 +3496,7 @@
     },
     "index": 13800,
     "id": "MinotaurBrute",
+    "name": "Minos",
     "image": "MinotaurBrute-hd.png",
     "locations": [
       {
@@ -3735,6 +3904,7 @@
     },
     "index": 8300,
     "id": "Reptilo",
+    "name": "Reptilo",
     "image": "Reptilo-hd.png",
     "locations": [
       {
@@ -3810,6 +3980,7 @@
     },
     "index": 15600,
     "id": "SerpentMage",
+    "name": "Serpent Mage",
     "image": "SerpentMage-hd.png",
     "locations": [
       {
@@ -3865,6 +4036,7 @@
     },
     "index": 8450,
     "id": "Yacare",
+    "name": "Yacare",
     "image": "Yacare-hd.png",
     "locations": [
       {
@@ -4112,6 +4284,7 @@
     },
     "index": 8400,
     "id": "ReptileLord",
+    "name": "Reptile Lord",
     "image": "ReptileLord-hd.png",
     "locations": [
       {
@@ -4183,6 +4356,7 @@
     },
     "index": 14000,
     "id": "Ganesha",
+    "name": "Ganesha",
     "image": "Ganesha-hd.png",
     "locations": [
       {
@@ -4250,6 +4424,7 @@
     },
     "index": 15500,
     "id": "SerpentKnight",
+    "name": "Scale Knight",
     "image": "SerpentKnight-hd.png",
     "locations": [
       {
@@ -4397,6 +4572,7 @@
     },
     "index": 13700,
     "id": "Minotaur",
+    "name": "Minotaur",
     "image": "Minotaur-hd.png",
     "locations": [
       {
@@ -4488,6 +4664,7 @@
     },
     "index": 5900,
     "id": "Goblin",
+    "name": "Goblin",
     "image": "Goblin-hd.png",
     "locations": [
       {
@@ -4599,6 +4776,7 @@
     },
     "index": 806000,
     "id": "SnowMan",
+    "name": "Snow Man",
     "image": "SnowMan-hd.png",
     "locations": [
       {
@@ -4742,6 +4920,7 @@
     },
     "index": 50500,
     "id": "CatRider2",
+    "name": "Night Rider",
     "image": "CatRider2-hd.png",
     "locations": [],
     "moves": [
@@ -4755,14 +4934,6 @@
       },
       {
         "name": "SoulEater",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Holy",
-        "type": "Offensive.Life.Life"
-      },
-      {
-        "name": "CatStrike",
         "type": "Offensive.Attack"
       },
       {
@@ -4797,6 +4968,7 @@
     },
     "index": 80310,
     "id": "Sasquatch",
+    "name": "Sasquatch",
     "image": "Sasquatch-hd.png",
     "locations": [],
     "moves": [
@@ -4831,6 +5003,7 @@
     },
     "index": 14500,
     "id": "Destroyer",
+    "name": "Destroyer",
     "image": "Destroyer-hd.png",
     "locations": [
       {
@@ -4928,10 +5101,6 @@
         "type": "Defensive.AttackUp"
       },
       {
-        "name": "Grappler",
-        "type": "Offensive.Attack"
-      },
-      {
         "name": "Dance",
         "type": "Utility.Dance"
       },
@@ -4967,6 +5136,7 @@
     },
     "index": 12500,
     "id": "SamuraiMaster",
+    "name": "Samurai Lord",
     "image": "SamuraiMaster-hd.png",
     "locations": [
       {
@@ -5099,6 +5269,7 @@
     },
     "index": 80320,
     "id": "Wendigo",
+    "name": "Wendigo",
     "image": "Wendigo-hd.png",
     "locations": [
       {
@@ -5294,14 +5465,6 @@
       {
         "name": "Assault",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Grappler",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Guard",
-        "type": "Defensive.DefenseUp"
       }
     ]
   },
@@ -5323,6 +5486,7 @@
     },
     "index": 80700,
     "id": "Goemon",
+    "name": "Goemon",
     "image": "Goemon-hd.png",
     "locations": [
       {
@@ -5360,8 +5524,8 @@
         "type": "Defensive.Detaunt"
       },
       {
-        "name": "Escape",
-        "type": "Utility.Escape"
+        "name": "Ninjutsu",
+        "type": "Passive.Generic"
       },
       {
         "name": "Slay",
@@ -5369,10 +5533,6 @@
       },
       {
         "name": "MetalSlash",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Stab",
         "type": "Offensive.Attack"
       }
     ]
@@ -5398,6 +5558,7 @@
     },
     "index": 7500,
     "id": "Assassin",
+    "name": "Assassin",
     "image": "Assassin-hd.png",
     "locations": [
       {
@@ -5485,6 +5646,7 @@
     },
     "index": 15100,
     "id": "DarkMage",
+    "name": "Dark Mage",
     "image": "DarkMage-hd.png",
     "locations": [
       {
@@ -5568,6 +5730,7 @@
     },
     "index": 20500,
     "id": "Cyclops",
+    "name": "Cyclops",
     "image": "Cyclops-hd.png",
     "locations": [
       {
@@ -5611,6 +5774,7 @@
     },
     "index": 15000,
     "id": "DarkPriest",
+    "name": "Dark Priest",
     "image": "DarkPriest-hd.png",
     "locations": [
       {
@@ -5706,6 +5870,7 @@
     },
     "index": 7700,
     "id": "Ninja",
+    "name": "Ninja",
     "image": "Ninja-hd.png",
     "locations": [
       {
@@ -5807,15 +5972,15 @@
         "type": "Defensive.Detaunt"
       },
       {
+        "name": "Ninjutsu",
+        "type": "Passive.Generic"
+      },
+      {
         "name": "Slay",
         "type": "Offensive.Attack"
       },
       {
         "name": "MetalSlash",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Stab",
         "type": "Offensive.Attack"
       }
     ]
@@ -5837,6 +6002,7 @@
     },
     "index": 50600,
     "id": "CatRider3",
+    "name": "Chaos Rider",
     "image": "CatRider3-hd.png",
     "locations": [
       {
@@ -5870,23 +6036,7 @@
         "type": "Offensive.Attack"
       },
       {
-        "name": "Axion",
-        "type": "Offensive.Death.Death"
-      },
-      {
-        "name": "CatRage",
-        "type": "Offensive.Attack"
-      },
-      {
         "name": "SoulEater",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Holy",
-        "type": "Offensive.Life.Life"
-      },
-      {
-        "name": "CatStrike",
         "type": "Offensive.Attack"
       },
       {
@@ -5920,6 +6070,7 @@
     },
     "index": 14800,
     "id": "BloodWarrior",
+    "name": "Blood Warrior",
     "image": "BloodWarrior-hd.png",
     "locations": [
       {
@@ -5947,14 +6098,6 @@
       {
         "name": "Axe",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "FireStorm",
-        "type": "Offensive.Fire.FireAll"
-      },
-      {
-        "name": "Flame",
-        "type": "Offensive.Fire.Fire"
       }
     ]
   },
@@ -5976,6 +6119,7 @@
     },
     "index": 80410,
     "id": "Ifrit",
+    "name": "Ifrit",
     "image": "Ifrit-hd.png",
     "locations": [
       {
@@ -6035,6 +6179,7 @@
     },
     "index": 14600,
     "id": "Decimator",
+    "name": "Decimator",
     "image": "Decimator-hd.png",
     "locations": [
       {
@@ -6057,14 +6202,6 @@
       },
       {
         "name": "Cleave",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Assault",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Grappler",
         "type": "Offensive.Attack"
       },
       {
@@ -6098,6 +6235,7 @@
     },
     "index": 22400,
     "id": "Blademaster",
+    "name": "Blademaster",
     "image": "Blademaster-hd.png",
     "locations": [
       {
@@ -6185,6 +6323,7 @@
     },
     "index": 7600,
     "id": "Sasuke",
+    "name": "Sasuke",
     "image": "Sasuke-hd.png",
     "locations": [
       {
@@ -6236,10 +6375,6 @@
       {
         "name": "MetalSlash",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Stab",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -6260,6 +6395,7 @@
     },
     "index": 11100,
     "id": "ThunderMage",
+    "name": "Thunder Mage",
     "image": "ThunderMage-hd.png",
     "locations": [
       {
@@ -6471,14 +6607,6 @@
       {
         "name": "Electrocute",
         "type": "Offensive.Stun.StunMagicAttack"
-      },
-      {
-        "name": "Thunderbolt",
-        "type": "Offensive.Thunder.Thunder"
-      },
-      {
-        "name": "Spark",
-        "type": "Offensive.Thunder.Thunder"
       }
     ]
   },
@@ -6503,6 +6631,7 @@
     },
     "index": 14700,
     "id": "BloodPriest",
+    "name": "Blood Priest",
     "image": "BloodPriest-hd.png",
     "locations": [
       {
@@ -6574,6 +6703,7 @@
     },
     "index": 6000,
     "id": "Gnoll",
+    "name": "Gnoll",
     "image": "Gnoll-hd.png",
     "locations": [
       {
@@ -6813,6 +6943,7 @@
     },
     "index": 20700,
     "id": "GriffinRider",
+    "name": "Griffin Rider",
     "image": "GriffinRider-hd.png",
     "locations": [
       {
@@ -6936,6 +7067,7 @@
     },
     "index": 8500,
     "id": "SunPriest",
+    "name": "Cult Priest",
     "image": "SunPriest-hd.png",
     "locations": [
       {
@@ -6995,6 +7127,7 @@
     },
     "index": 8700,
     "id": "SunAssassin",
+    "name": "Cult Rogue",
     "image": "SunAssassin-hd.png",
     "locations": [
       {
@@ -7040,16 +7173,8 @@
         "type": "Offensive.Attack"
       },
       {
-        "name": "Axe",
-        "type": "Offensive.Attack"
-      },
-      {
         "name": "Cheer",
         "type": "Defensive.DefenseAttackUpAll"
-      },
-      {
-        "name": "Gust",
-        "type": "Offensive.Air.Air"
       }
     ]
   },
@@ -7074,6 +7199,7 @@
     },
     "index": 11500,
     "id": "Treehead",
+    "name": "Treehead",
     "image": "Treehead-hd.png",
     "locations": [
       {
@@ -7158,6 +7284,7 @@
     },
     "index": 6100,
     "id": "BeastKnight",
+    "name": "Beast Knight",
     "image": "BeastKnight-hd.png",
     "locations": [
       {
@@ -7253,6 +7380,7 @@
     },
     "index": 4300,
     "id": "BloodKnight",
+    "name": "Chimera Ant",
     "image": "BloodKnight-hd.png",
     "locations": [
       {
@@ -7314,14 +7442,6 @@
         "type": "Offensive.Attack"
       },
       {
-        "name": "AdhesiveMist",
-        "type": "Offensive.HasteDownAll"
-      },
-      {
-        "name": "AdhesiveFluid",
-        "type": "Offensive.HasteDown"
-      },
-      {
         "name": "VenomShot",
         "type": "Offensive.Poison.PoisonAttack"
       }
@@ -7348,6 +7468,7 @@
     },
     "index": 11000,
     "id": "Spark",
+    "name": "Spark",
     "image": "Spark-hd.png",
     "locations": [
       {
@@ -7415,6 +7536,7 @@
     },
     "index": 8600,
     "id": "SunWarrior",
+    "name": "Cult Warrior",
     "image": "SunWarrior-hd.png",
     "locations": [
       {
@@ -7454,10 +7576,6 @@
       {
         "name": "Cheer",
         "type": "Defensive.DefenseAttackUpAll"
-      },
-      {
-        "name": "Gust",
-        "type": "Offensive.Air.Air"
       }
     ]
   },
@@ -7482,6 +7600,7 @@
     },
     "index": 16000,
     "id": "KemetKing",
+    "name": "Kemet King",
     "image": "KemetKing-hd.png",
     "locations": [
       {
@@ -7585,6 +7704,7 @@
     },
     "index": 14900,
     "id": "BloodAssassin",
+    "name": "Blood Rogue",
     "image": "BloodAssassin-hd.png",
     "locations": [
       {
@@ -7776,18 +7896,6 @@
       {
         "name": "Slay",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Axe",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "FireStorm",
-        "type": "Offensive.Fire.FireAll"
-      },
-      {
-        "name": "Flame",
-        "type": "Offensive.Fire.Fire"
       }
     ]
   },
@@ -7808,6 +7916,7 @@
     },
     "index": 11600,
     "id": "Pyro",
+    "name": "Pyro",
     "image": "Pyro-hd.png",
     "locations": [
       {
@@ -8099,10 +8208,6 @@
       {
         "name": "Awaken",
         "type": "Utility.StatusRemove.StatusRemoveAll"
-      },
-      {
-        "name": "CocoDrop",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -8127,6 +8232,7 @@
     },
     "index": 12800,
     "id": "Kappa",
+    "name": "Kappa",
     "image": "Kappa-hd.png",
     "locations": [
       {
@@ -8202,6 +8308,7 @@
     },
     "index": 6200,
     "id": "Rider",
+    "name": "Rider",
     "image": "Rider-hd.png",
     "locations": [
       {
@@ -8337,6 +8444,7 @@
     },
     "index": 20100,
     "id": "Multiclops",
+    "name": "Multiclops",
     "image": "Multiclops-hd.png",
     "locations": [
       {
@@ -8452,6 +8560,7 @@
     },
     "index": 14100,
     "id": "Kaguya",
+    "name": "Kaguya",
     "image": "Kaguya-hd.png",
     "locations": [
       {
@@ -8651,6 +8760,7 @@
     },
     "index": 50400,
     "id": "CatRider1",
+    "name": "Dawn Rider",
     "image": "CatRider1-hd.png",
     "locations": [],
     "moves": [
@@ -8693,6 +8803,7 @@
     },
     "index": 12600,
     "id": "Shogun",
+    "name": "Shogun",
     "image": "Shogun-hd.png",
     "locations": [
       {
@@ -8906,14 +9017,6 @@
         "type": "Offensive.DoubleAttack"
       },
       {
-        "name": "Blade",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Slice",
-        "type": "Offensive.Attack"
-      },
-      {
         "name": "NoGuard",
         "type": "Defensive.ShiftDefenseToAttack"
       }
@@ -8941,6 +9044,7 @@
     },
     "index": 14300,
     "id": "Yeti",
+    "name": "Yeti",
     "image": "Yeti-hd.png",
     "locations": [
       {
@@ -9056,6 +9160,7 @@
     },
     "index": 80400,
     "id": "Bon",
+    "name": "Bon",
     "image": "Bon-hd.png",
     "locations": [
       {
@@ -9091,6 +9196,7 @@
     },
     "index": 14400,
     "id": "IceYeti",
+    "name": "Ice Yeti",
     "image": "IceYeti-hd.png",
     "locations": [
       {
@@ -9170,6 +9276,7 @@
     },
     "index": 16100,
     "id": "KemetGod",
+    "name": "Kemet God",
     "image": "KemetGod-hd.png",
     "locations": [
       {
@@ -9411,10 +9518,6 @@
         "type": "Offensive.Air.Air"
       },
       {
-        "name": "Whip",
-        "type": "Offensive.Attack"
-      },
-      {
         "name": "Pharao'sCurse",
         "type": "Passive.Generic"
       }
@@ -9437,6 +9540,7 @@
     },
     "index": 6300,
     "id": "Champion",
+    "name": "Berith",
     "image": "Champion-hd.png",
     "locations": [
       {
@@ -9629,6 +9733,7 @@
     },
     "index": 12400,
     "id": "Samurai",
+    "name": "Samurai",
     "image": "Samurai-hd.png",
     "locations": [
       {
@@ -9732,6 +9837,7 @@
     },
     "index": 4100,
     "id": "GiantAnt",
+    "name": "Giant Ant",
     "image": "GiantAnt-hd.png",
     "locations": [
       {
@@ -9891,6 +9997,7 @@
     },
     "index": 2900,
     "id": "GiantWasp",
+    "name": "Giant Wasp",
     "image": "GiantWasp-hd.png",
     "locations": [
       {
@@ -9990,6 +10097,7 @@
     },
     "index": 6500,
     "id": "Pincer",
+    "name": "Pincer",
     "image": "Pincer-hd.png",
     "locations": [
       {
@@ -10035,10 +10143,6 @@
         "type": "Offensive.Sleep.Sleep"
       },
       {
-        "name": "AdhesiveShot",
-        "type": "Offensive.Attack"
-      },
-      {
         "name": "VenomSting",
         "type": "Offensive.Poison.PoisonAttack"
       }
@@ -10062,6 +10166,7 @@
     },
     "index": 14200,
     "id": "Megaslug",
+    "name": "Megaslug",
     "image": "Megaslug-hd.png",
     "locations": [
       {
@@ -10344,6 +10449,7 @@
     },
     "index": 4200,
     "id": "Mutation",
+    "name": "Mutation",
     "image": "Mutation-hd.png",
     "locations": [
       {
@@ -10367,10 +10473,6 @@
       {
         "name": "AdhesiveMist",
         "type": "Offensive.HasteDownAll"
-      },
-      {
-        "name": "AdhesiveFluid",
-        "type": "Offensive.HasteDown"
       },
       {
         "name": "VenomShot",
@@ -10402,6 +10504,7 @@
     },
     "index": 6400,
     "id": "Stinger",
+    "name": "Stinger",
     "image": "Stinger-hd.png",
     "locations": [
       {
@@ -10481,6 +10584,7 @@
     },
     "index": 6600,
     "id": "TerrorClaw",
+    "name": "Terror Claw",
     "image": "TerrorClaw-hd.png",
     "locations": [
       {
@@ -10766,16 +10870,8 @@
         "type": "Offensive.Poison.PoisonAttackAll"
       },
       {
-        "name": "VenomSpray",
-        "type": "Offensive.Poison.PoisonAll"
-      },
-      {
         "name": "HypnoticShot",
         "type": "Offensive.Sleep.Sleep"
-      },
-      {
-        "name": "AdhesiveShot",
-        "type": "Offensive.Attack"
       },
       {
         "name": "VenomSting",
@@ -10800,6 +10896,7 @@
     },
     "index": 3000,
     "id": "WaspQueen",
+    "name": "Wasp Queen",
     "image": "WaspQueen-hd.png",
     "locations": [
       {
@@ -10951,6 +11048,7 @@
     },
     "index": 9600,
     "id": "DevilWorm",
+    "name": "Devil Worm",
     "image": "DevilWorm-hd.png",
     "locations": [
       {
@@ -11115,6 +11213,7 @@
     },
     "index": 30600,
     "id": "Evil",
+    "name": "Evil",
     "image": "Evil-hd.png",
     "locations": [
       {
@@ -11163,6 +11262,7 @@
     },
     "index": 30700,
     "id": "Fear",
+    "name": "Fear",
     "image": "Fear-hd.png",
     "locations": [
       {
@@ -11211,6 +11311,7 @@
     },
     "index": 30800,
     "id": "Thought",
+    "name": "Thought",
     "image": "Thought-hd.png",
     "locations": [
       {
@@ -11263,6 +11364,7 @@
     },
     "index": 30100,
     "id": "Fire",
+    "name": "Fire",
     "image": "Fire-hd.png",
     "locations": [
       {
@@ -11311,6 +11413,7 @@
     },
     "index": 30200,
     "id": "Fate",
+    "name": "Fate",
     "image": "Fate-hd.png",
     "locations": [
       {
@@ -11359,6 +11462,7 @@
     },
     "index": 30500,
     "id": "Karma",
+    "name": "Karma",
     "image": "Karma-hd.png",
     "locations": [
       {
@@ -11407,6 +11511,7 @@
     },
     "index": 31001,
     "id": "Shenron",
+    "name": "Shenron",
     "image": "Shenron-hd.png",
     "locations": [
       {
@@ -11455,6 +11560,7 @@
     },
     "index": 31000,
     "id": "Time",
+    "name": "Time",
     "image": "Time-hd.png",
     "locations": [
       {
@@ -11507,6 +11613,7 @@
     },
     "index": 30400,
     "id": "Energy",
+    "name": "Energy",
     "image": "Energy-hd.png",
     "locations": [
       {
@@ -11555,6 +11662,7 @@
     },
     "index": 30000,
     "id": "Resistance",
+    "name": "Resistance",
     "image": "Resistance-hd.png",
     "locations": [
       {
@@ -11599,6 +11707,7 @@
     },
     "index": 30900,
     "id": "Divine",
+    "name": "Divine",
     "image": "Divine-hd.png",
     "locations": [
       {
@@ -11659,6 +11768,7 @@
     },
     "index": 30300,
     "id": "Aggression",
+    "name": "Aggression",
     "image": "Aggression-hd.png",
     "locations": [
       {
@@ -11710,6 +11820,7 @@
     },
     "index": 9300,
     "id": "Legionnaire",
+    "name": "Legionnaire",
     "image": "Legionnaire-hd.png",
     "locations": [
       {
@@ -11797,6 +11908,7 @@
     },
     "index": 16300,
     "id": "Grimoire",
+    "name": "Grimoire",
     "image": "Grimoire-hd.png",
     "locations": [
       {
@@ -11932,6 +12044,7 @@
     },
     "index": 15800,
     "id": "NightCrawler",
+    "name": "Night Crawler",
     "image": "NightCrawler-hd.png",
     "locations": [
       {
@@ -11959,14 +12072,6 @@
       {
         "name": "Plague",
         "type": "Offensive.Death.Death"
-      },
-      {
-        "name": "Enlighten",
-        "type": "Defensive.MagicUpAll"
-      },
-      {
-        "name": "DarkBlast",
-        "type": "Offensive.Death.Death"
       }
     ]
   },
@@ -11987,6 +12092,7 @@
     },
     "index": 20200,
     "id": "SkullCrow",
+    "name": "Skull Crow",
     "image": "SkullCrow-hd.png",
     "locations": [
       {
@@ -12034,6 +12140,7 @@
     },
     "index": 20600,
     "id": "Demios",
+    "name": "Demios",
     "image": "Demios-hd.png",
     "locations": [
       {
@@ -12089,6 +12196,7 @@
     },
     "index": 9500,
     "id": "Guardian",
+    "name": "Guardian",
     "image": "Guardian-hd.png",
     "locations": [
       {
@@ -12156,10 +12264,6 @@
       {
         "name": "MetalSlash",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Spear",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -12184,6 +12288,7 @@
     },
     "index": 9400,
     "id": "Centurion",
+    "name": "Centurion",
     "image": "Centurion-hd.png",
     "locations": [
       {
@@ -12327,6 +12432,7 @@
     },
     "index": 22200,
     "id": "BoneDragon",
+    "name": "Bone Dragon",
     "image": "BoneDragon-hd.png",
     "locations": [
       {
@@ -12406,6 +12512,7 @@
     },
     "index": 16150,
     "id": "Bane",
+    "name": "Bane",
     "image": "Bane-hd.png",
     "locations": [
       {
@@ -12529,6 +12636,7 @@
     },
     "index": 20400,
     "id": "LichKing",
+    "name": "Lich King",
     "image": "LichKing-hd.png",
     "locations": [
       {
@@ -12588,6 +12696,7 @@
     },
     "index": 15900,
     "id": "DeathCrawler",
+    "name": "Death Crawler",
     "image": "DeathCrawler-hd.png",
     "locations": [
       {
@@ -12641,23 +12750,11 @@
         "type": "Offensive.Stun.StunMagicAttackAll"
       },
       {
-        "name": "Horror",
-        "type": "Offensive.Stun.StunMagicAttack"
-      },
-      {
         "name": "MagicField",
         "type": "Defensive.ResistMagicUpAll"
       },
       {
         "name": "Plague",
-        "type": "Offensive.Death.Death"
-      },
-      {
-        "name": "Enlighten",
-        "type": "Defensive.MagicUpAll"
-      },
-      {
-        "name": "DarkBlast",
         "type": "Offensive.Death.Death"
       }
     ]
@@ -12679,6 +12776,7 @@
     },
     "index": 16200,
     "id": "MageBane",
+    "name": "Mage Bane",
     "image": "MageBane-hd.png",
     "locations": [
       {
@@ -12738,6 +12836,7 @@
     },
     "index": 21100,
     "id": "Juggernaut",
+    "name": "Juggernaut",
     "image": "Juggernaut-hd.png",
     "locations": [
       {
@@ -12805,6 +12904,7 @@
     },
     "index": 20950,
     "id": "Dementor",
+    "name": "Dementor",
     "image": "Dementor-hd.png",
     "locations": [
       {
@@ -12952,6 +13052,7 @@
     },
     "index": 11800,
     "id": "Vampire",
+    "name": "Vampire",
     "image": "Vampire-hd.png",
     "locations": [
       {
@@ -12987,10 +13088,6 @@
       {
         "name": "Confusion",
         "type": "Offensive.Confuse.Confuse"
-      },
-      {
-        "name": "Turbulance",
-        "type": "Offensive.Air.Air"
       }
     ]
   },
@@ -13012,6 +13109,7 @@
     },
     "index": 15670,
     "id": "Lich",
+    "name": "Lich",
     "image": "Lich-hd.png",
     "locations": [
       {
@@ -13087,6 +13185,7 @@
     },
     "index": 9200,
     "id": "Spartan",
+    "name": "Spartan",
     "image": "Spartan-hd.png",
     "locations": [
       {
@@ -13182,6 +13281,7 @@
     },
     "index": 9800,
     "id": "Bones",
+    "name": "Bones",
     "image": "Bones-hd.png",
     "locations": [
       {
@@ -13322,6 +13422,7 @@
     },
     "index": 15700,
     "id": "LightCrawler",
+    "name": "Light Crawler",
     "image": "LightCrawler-hd.png",
     "locations": [
       {
@@ -13381,6 +13482,7 @@
     },
     "index": 16400,
     "id": "Bastion",
+    "name": "Bastion",
     "image": "Bastion-hd.png",
     "locations": [
       {
@@ -13440,6 +13542,7 @@
     },
     "index": 21000,
     "id": "Titan",
+    "name": "Titan",
     "image": "Titan-hd.png",
     "locations": [
       {
@@ -13511,6 +13614,7 @@
     },
     "index": 3900,
     "id": "BabyNessie",
+    "name": "Baby Nessie",
     "image": "BabyNessie-hd.png",
     "locations": [
       {
@@ -13570,6 +13674,7 @@
     },
     "index": 12200,
     "id": "Shark",
+    "name": "Shark",
     "image": "Shark-hd.png",
     "locations": [
       {
@@ -13613,6 +13718,7 @@
     },
     "index": 8200,
     "id": "ElderSeahorse",
+    "name": "Elder Seahorse",
     "image": "ElderSeahorse-hd.png",
     "locations": [
       {
@@ -13662,20 +13768,8 @@
         "type": "Offensive.Water.Water"
       },
       {
-        "name": "Ultrasonar",
-        "type": "Offensive.ResistDownAll"
-      },
-      {
-        "name": "Ultrasonic",
-        "type": "Offensive.DefenseDownAll"
-      },
-      {
         "name": "Protect",
         "type": "Defensive.DefenseUpAll"
-      },
-      {
-        "name": "RapidWater",
-        "type": "Offensive.Water.Water"
       }
     ]
   },
@@ -13703,6 +13797,7 @@
     },
     "index": 9900,
     "id": "IronFish",
+    "name": "Iron Fish",
     "image": "IronFish-hd.png",
     "locations": [
       {
@@ -13741,6 +13836,7 @@
     },
     "index": 15200,
     "id": "MutantFish",
+    "name": "Mutant Fish",
     "image": "MutantFish-hd.png",
     "locations": [
       {
@@ -13780,6 +13876,7 @@
     },
     "index": 2100,
     "id": "WhitePiranha",
+    "name": "Piranha",
     "image": "WhitePiranha-hd.png",
     "locations": [
       {
@@ -13819,6 +13916,7 @@
     },
     "index": 15300,
     "id": "SeaMaiden",
+    "name": "Sea Maiden",
     "image": "SeaMaiden-hd.png",
     "locations": [
       {
@@ -13838,10 +13936,6 @@
       {
         "name": "Reincarnation",
         "type": "Utility.CallMonster"
-      },
-      {
-        "name": "Bubble",
-        "type": "Offensive.Water.Water"
       }
     ]
   },
@@ -13866,6 +13960,7 @@
     },
     "index": 2300,
     "id": "DarkRazorfish",
+    "name": "Dark Razorfish",
     "image": "DarkRazorfish-hd.png",
     "locations": [
       {
@@ -13949,6 +14044,7 @@
     },
     "index": 22300,
     "id": "AquaHorror",
+    "name": "Aqua Horror",
     "image": "AquaHorror-hd.png",
     "locations": [
       {
@@ -14040,6 +14136,7 @@
     },
     "index": 8800,
     "id": "TigerFish",
+    "name": "Tiger Fish",
     "image": "TigerFish-hd.png",
     "locations": [
       {
@@ -14079,6 +14176,7 @@
     },
     "index": 8900,
     "id": "TigerSwarm",
+    "name": "Tiger Swarm",
     "image": "TigerSwarm-hd.png",
     "locations": [
       {
@@ -14238,6 +14336,7 @@
     },
     "index": 15400,
     "id": "SeaCaliph",
+    "name": "Sea Caliph",
     "image": "SeaCaliph-hd.png",
     "locations": [
       {
@@ -14335,16 +14434,8 @@
         "type": "Offensive.Water.DoubleWater"
       },
       {
-        "name": "RapidWater",
-        "type": "Offensive.Water.Water"
-      },
-      {
         "name": "Reincarnation",
         "type": "Utility.CallMonster"
-      },
-      {
-        "name": "Bubble",
-        "type": "Offensive.Water.Water"
       }
     ]
   },
@@ -14365,6 +14456,7 @@
     },
     "index": 9100,
     "id": "Leviathan",
+    "name": "Leviathan",
     "image": "Leviathan-hd.png",
     "locations": [
       {
@@ -14408,14 +14500,6 @@
       {
         "name": "Lacerate",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Escape",
-        "type": "Utility.Escape"
-      },
-      {
-        "name": "Wiggle",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -14441,6 +14525,7 @@
     },
     "index": 9000,
     "id": "WhiteDolphin",
+    "name": "White Dolphin",
     "image": "WhiteDolphin-hd.png",
     "locations": [
       {
@@ -14496,6 +14581,7 @@
     },
     "index": 8100,
     "id": "WhiteSeahorse",
+    "name": "White Seahorse",
     "image": "WhiteSeahorse-hd.png",
     "locations": [
       {
@@ -14539,6 +14625,7 @@
     },
     "index": 10200,
     "id": "CeolaKing",
+    "name": "Ceola King",
     "image": "CeolaKing-hd.png",
     "locations": [
       {
@@ -14630,10 +14717,6 @@
       {
         "name": "Vortex",
         "type": "Offensive.Water.Water"
-      },
-      {
-        "name": "RapidWater",
-        "type": "Offensive.Water.Water"
       }
     ]
   },
@@ -14661,6 +14744,7 @@
     },
     "index": 10100,
     "id": "ArmorFish",
+    "name": "Armor Fish",
     "image": "ArmorFish-hd.png",
     "locations": [
       {
@@ -14692,6 +14776,7 @@
     },
     "index": 10000,
     "id": "SeaDragon",
+    "name": "Sea Dragon",
     "image": "SeaDragon-hd.png",
     "locations": [
       {
@@ -14831,10 +14916,6 @@
       {
         "name": "DragonRage",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Skullbutt",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -14855,6 +14936,7 @@
     },
     "index": 2400,
     "id": "DeepWhale",
+    "name": "Deep Whale",
     "image": "DeepWhale-hd.png",
     "locations": [
       {
@@ -14938,14 +15020,6 @@
       {
         "name": "Hunt",
         "type": "Offensive.DoubleAttack"
-      },
-      {
-        "name": "Gang",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Bite",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -14973,6 +15047,7 @@
     },
     "index": 2200,
     "id": "Razorfish",
+    "name": "Razorfish",
     "image": "Razorfish-hd.png",
     "locations": [
       {
@@ -15012,6 +15087,7 @@
     },
     "index": 4000,
     "id": "Nessie",
+    "name": "Nessie",
     "image": "Nessie-hd.png",
     "locations": [
       {
@@ -15123,6 +15199,7 @@
     },
     "index": 8000,
     "id": "BlueSeahorse",
+    "name": "Blue Seahorse",
     "image": "BlueSeahorse-hd.png",
     "locations": [
       {
@@ -15178,6 +15255,7 @@
     },
     "index": 12300,
     "id": "TerrorShark",
+    "name": "Terror Shark",
     "image": "TerrorShark-hd.png",
     "locations": [
       {
@@ -15234,6 +15312,7 @@
     },
     "index": 20900,
     "id": "Archdemon",
+    "name": "Archdemon",
     "image": "Archdemon-hd.png",
     "locations": [
       {
@@ -15269,18 +15348,6 @@
       {
         "name": "DeathSentence",
         "type": "Offensive.DeathSentence"
-      },
-      {
-        "name": "Enrage",
-        "type": "Defensive.AttackUpAll"
-      },
-      {
-        "name": "Enlighten",
-        "type": "Defensive.MagicUpAll"
-      },
-      {
-        "name": "Plague",
-        "type": "Offensive.Death.Death"
       }
     ]
   },
@@ -15306,6 +15373,7 @@
     },
     "index": 20800,
     "id": "Demon",
+    "name": "Demon",
     "image": "Demon-hd.png",
     "locations": [
       {
@@ -15339,14 +15407,6 @@
         "type": "Offensive.DeathSentence"
       },
       {
-        "name": "Enrage",
-        "type": "Defensive.AttackUpAll"
-      },
-      {
-        "name": "Enlighten",
-        "type": "Defensive.MagicUpAll"
-      },
-      {
         "name": "Plague",
         "type": "Offensive.Death.Death"
       }
@@ -15373,6 +15433,7 @@
     },
     "index": 20300,
     "id": "FallenAngel",
+    "name": "Fallen Angel",
     "image": "FallenAngel-hd.png",
     "locations": [],
     "moves": [
@@ -15407,6 +15468,7 @@
     },
     "index": 12900,
     "id": "Imp",
+    "name": "Imp",
     "image": "Imp-hd.png",
     "locations": [
       {
@@ -15574,6 +15636,7 @@
     },
     "index": 13400,
     "id": "Sphinxling",
+    "name": "Sphinxling",
     "image": "Sphinxling-hd.png",
     "locations": [
       {
@@ -15649,6 +15712,7 @@
     },
     "index": 12850,
     "id": "Tengu",
+    "name": "Tengu",
     "image": "Tengu-hd.png",
     "locations": [
       {
@@ -15748,14 +15812,6 @@
       {
         "name": "Tekken",
         "type": "Offensive.DoubleAttack"
-      },
-      {
-        "name": "Ninjutsu",
-        "type": "Defensive.Detaunt"
-      },
-      {
-        "name": "Karate",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -15780,6 +15836,7 @@
     },
     "index": 5400,
     "id": "Watcher",
+    "name": "Watcher",
     "image": "Watcher-hd.png",
     "locations": [
       {
@@ -15827,6 +15884,7 @@
     },
     "index": 5600,
     "id": "Beholder",
+    "name": "Beholder",
     "image": "Beholder-hd.png",
     "locations": [
       {
@@ -15984,10 +16042,6 @@
         "type": "Offensive.Paralyze.Paralyze"
       },
       {
-        "name": "MagicWall",
-        "type": "Defensive.ResistUpAll"
-      },
-      {
         "name": "Flame",
         "type": "Offensive.Fire.Fire"
       }
@@ -16010,6 +16064,7 @@
     },
     "index": 11900,
     "id": "DarkSpirit",
+    "name": "Dark Spirit",
     "image": "DarkSpirit-hd.png",
     "locations": [
       {
@@ -16179,24 +16234,12 @@
         "type": "Offensive.Death.DoubleDeath"
       },
       {
-        "name": "Ultrasonic",
-        "type": "Offensive.DefenseDownAll"
-      },
-      {
         "name": "Feed",
         "type": "Offensive.DrainHealth"
       },
       {
-        "name": "Darkness",
-        "type": "Offensive.Death.Death"
-      },
-      {
         "name": "Confusion",
         "type": "Offensive.Confuse.Confuse"
-      },
-      {
-        "name": "Turbulance",
-        "type": "Offensive.Air.Air"
       }
     ]
   },
@@ -16221,6 +16264,7 @@
     },
     "index": 13500,
     "id": "Sphinx",
+    "name": "Sphinx",
     "image": "Sphinx-hd.png",
     "locations": [
       {
@@ -16258,10 +16302,6 @@
         "type": "Defensive.Scapegoat"
       },
       {
-        "name": "Stomp",
-        "type": "Offensive.Attack"
-      },
-      {
         "name": "Protect",
         "type": "Defensive.DefenseUpAll"
       },
@@ -16288,6 +16328,7 @@
     },
     "index": 80210,
     "id": "Morfeus",
+    "name": "Morfeus",
     "image": "Morfeus-hd.png",
     "locations": [
       {
@@ -16451,10 +16492,6 @@
       {
         "name": "Dreamhunt",
         "type": "Offensive.AttackAll"
-      },
-      {
-        "name": "Nightmare",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -16479,6 +16516,7 @@
     },
     "index": 5500,
     "id": "LichEye",
+    "name": "Lich Eye",
     "image": "LichEye-hd.png",
     "locations": [
       {
@@ -16522,6 +16560,7 @@
     },
     "index": 13600,
     "id": "SphinxMaster",
+    "name": "Sphinx Master",
     "image": "SphinxMaster-hd.png",
     "locations": [
       {
@@ -16587,14 +16626,6 @@
         "type": "Defensive.Scapegoat"
       },
       {
-        "name": "Stomp",
-        "type": "Offensive.Attack"
-      },
-      {
-        "name": "Protect",
-        "type": "Defensive.DefenseUpAll"
-      },
-      {
         "name": "Crystalize",
         "type": "Defensive.GuardUp"
       }
@@ -16621,6 +16652,7 @@
     },
     "index": 13100,
     "id": "DreamHunter",
+    "name": "Dream Hunter",
     "image": "DreamHunter-hd.png",
     "locations": [
       {
@@ -16684,10 +16716,6 @@
       {
         "name": "Dreamhunt",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Nightmare",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -16708,6 +16736,7 @@
     },
     "index": 80710,
     "id": "Doki",
+    "name": "Doki",
     "image": "Doki-hd.png",
     "locations": [
       {
@@ -16739,6 +16768,7 @@
     },
     "index": 40000,
     "id": "Abomination",
+    "name": "Abomination",
     "image": "Abomination-hd.png",
     "locations": [
       {
@@ -16838,6 +16868,7 @@
     },
     "index": 5300,
     "id": "EvilEye",
+    "name": "Evil Eye",
     "image": "EvilEye-hd.png",
     "locations": [
       {
@@ -16878,6 +16909,7 @@
     },
     "index": 80850,
     "id": "Asura",
+    "name": "Asura",
     "image": "Asura-hd.png",
     "locations": [
       {
@@ -16909,14 +16941,6 @@
       {
         "name": "Tekken",
         "type": "Offensive.DoubleAttack"
-      },
-      {
-        "name": "Ninjutsu",
-        "type": "Defensive.Detaunt"
-      },
-      {
-        "name": "Karate",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -16944,6 +16968,7 @@
     },
     "index": 13000,
     "id": "DreamEater",
+    "name": "Dream Eater",
     "image": "DreamEater-hd.png",
     "locations": [
       {
@@ -17003,6 +17028,7 @@
     },
     "index": 50000,
     "id": "Teddy",
+    "name": "Teddy",
     "image": "Teddy-hd.png",
     "locations": [
       {
@@ -17053,18 +17079,6 @@
       }
     ]
   },
-  "rootStats": {
-    "Attack": 10,
-    "Resist": 10,
-    "Defense": 10,
-    "Speed": 12,
-    "Magic": 10,
-    "MaxHP": 10,
-    "id": "rootStats",
-    "image": "rootStats-hd.png",
-    "locations": [],
-    "moves": []
-  },
   "GoldLion": {
     "category": "Normal",
     "parent": "RootMonster",
@@ -17086,6 +17100,7 @@
     },
     "index": 10500,
     "id": "GoldLion",
+    "name": "Gold Lion",
     "image": "GoldLion-hd.png",
     "locations": [
       {
@@ -17265,6 +17280,7 @@
     },
     "index": 12700,
     "id": "ShadowTiger",
+    "name": "Dark Panther",
     "image": "ShadowTiger-hd.png",
     "locations": [
       {
@@ -17323,6 +17339,7 @@
     },
     "index": 80200,
     "id": "UltimatePanther",
+    "name": "Behemoth",
     "image": "UltimatePanther-hd.png",
     "locations": [
       {
@@ -17406,6 +17423,7 @@
     },
     "index": 2500,
     "id": "SnowCub",
+    "name": "Snow Cub",
     "image": "SnowCub-hd.png",
     "locations": [
       {
@@ -17470,6 +17488,7 @@
     },
     "index": 2800,
     "id": "FireTiger",
+    "name": "Fire Tiger",
     "image": "FireTiger-hd.png",
     "locations": [
       {
@@ -17581,10 +17600,6 @@
       {
         "name": "Claw",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Flame",
-        "type": "Offensive.Fire.Fire"
       }
     ]
   },
@@ -17605,6 +17620,7 @@
     },
     "index": 10600,
     "id": "LionKing",
+    "name": "Lion King",
     "image": "LionKing-hd.png",
     "locations": [
       {
@@ -17743,6 +17759,7 @@
     },
     "index": 80000,
     "id": "Leo",
+    "name": "Solaris",
     "image": "Leo-hd.png",
     "locations": [
       {
@@ -17830,6 +17847,7 @@
     },
     "index": 2700,
     "id": "FireCub",
+    "name": "Fire Cub",
     "image": "FireCub-hd.png",
     "locations": [
       {
@@ -17894,6 +17912,7 @@
     },
     "index": 2600,
     "id": "SnowPanther",
+    "name": "Snow Panther",
     "image": "SnowPanther-hd.png",
     "locations": [
       {
@@ -18001,10 +18020,6 @@
       {
         "name": "Claw",
         "type": "Offensive.Attack"
-      },
-      {
-        "name": "Hail",
-        "type": "Offensive.Ice.Ice"
       }
     ]
   },
@@ -18029,6 +18044,7 @@
     },
     "index": 11200,
     "id": "Cherub",
+    "name": "Cherub",
     "image": "Cherub-hd.png",
     "locations": [
       {
@@ -18072,6 +18088,7 @@
     },
     "index": 4800,
     "id": "FairyQueen",
+    "name": "Fairy Queen",
     "image": "FairyQueen-hd.png",
     "locations": [
       {
@@ -18353,10 +18370,6 @@
         "type": "Utility.Analyze"
       },
       {
-        "name": "Hypnosis",
-        "type": "Offensive.Sleep.Sleep"
-      },
-      {
         "name": "Sanct",
         "type": "Offensive.Life.Life"
       }
@@ -18383,6 +18396,7 @@
     },
     "index": 4700,
     "id": "Fairy",
+    "name": "Fairy",
     "image": "Fairy-hd.png",
     "locations": [
       {
@@ -18451,6 +18465,7 @@
     },
     "index": 11300,
     "id": "Angel",
+    "name": "Angel",
     "image": "Angel-hd.png",
     "locations": [],
     "moves": [
@@ -18461,10 +18476,6 @@
       {
         "name": "MightyGuard",
         "type": "Defensive.GuardUpAll"
-      },
-      {
-        "name": "MagicWall",
-        "type": "Defensive.ResistUpAll"
       },
       {
         "name": "Crux",
@@ -18489,6 +18500,7 @@
     },
     "index": 3700,
     "id": "AngelicBird",
+    "name": "Angelic Bird",
     "image": "AngelicBird-hd.png",
     "locations": [
       {
@@ -18742,20 +18754,8 @@
         "type": "Offensive.Attack"
       },
       {
-        "name": "Gust",
-        "type": "Offensive.Air.Air"
-      },
-      {
         "name": "WingCutter",
         "type": "Offensive.DoubleAttack"
-      },
-      {
-        "name": "Tailwind",
-        "type": "Defensive.HasteUp"
-      },
-      {
-        "name": "Peck",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -18777,6 +18777,7 @@
     },
     "index": 11400,
     "id": "Archangel",
+    "name": "Archangel",
     "image": "Archangel-hd.png",
     "locations": [
       {
@@ -18868,14 +18869,6 @@
       {
         "name": "MightyGuard",
         "type": "Defensive.GuardUpAll"
-      },
-      {
-        "name": "MagicWall",
-        "type": "Defensive.ResistUpAll"
-      },
-      {
-        "name": "Crux",
-        "type": "Offensive.Life.Life"
       }
     ]
   },
@@ -18896,6 +18889,7 @@
     },
     "index": 7400,
     "id": "SpikeMonster",
+    "name": "Spike Monster",
     "image": "SpikeMonster-hd.png",
     "locations": [
       {
@@ -19035,6 +19029,7 @@
     },
     "index": 5700,
     "id": "Penguin",
+    "name": "Penguin",
     "image": "Penguin-hd.png",
     "locations": [
       {
@@ -19111,6 +19106,7 @@
     },
     "index": 7800,
     "id": "Tsuchinoko",
+    "name": "Noko",
     "image": "Tsuchinoko-hd.png",
     "locations": [
       {
@@ -19166,6 +19162,7 @@
     },
     "index": 3100,
     "id": "GiantCrab",
+    "name": "Giant Crab",
     "image": "GiantCrab-hd.png",
     "locations": [
       {
@@ -19221,6 +19218,7 @@
     },
     "index": 12000,
     "id": "SteelSnake",
+    "name": "Steel Snake",
     "image": "SteelSnake-hd.png",
     "locations": [
       {
@@ -19392,6 +19390,7 @@
     },
     "index": 1800,
     "id": "GiantBat",
+    "name": "Giant Bat",
     "image": "GiantBat-hd.png",
     "locations": [
       {
@@ -19432,6 +19431,7 @@
     },
     "index": 7900,
     "id": "Orochi",
+    "name": "Orochi",
     "image": "Orochi-hd.png",
     "locations": [
       {
@@ -19587,6 +19587,7 @@
     },
     "index": 1700,
     "id": "BatSquirrel",
+    "name": "Bat Squirrel",
     "image": "BatSquirrel-hd.png",
     "locations": [
       {
@@ -19671,6 +19672,7 @@
     },
     "index": 3600,
     "id": "FlameWing",
+    "name": "Flame Wing",
     "image": "FlameWing-hd.png",
     "locations": [
       {
@@ -19782,6 +19784,7 @@
     },
     "index": 1900,
     "id": "Doombat",
+    "name": "Doombat",
     "image": "Doombat-hd.png",
     "locations": [
       {
@@ -19829,6 +19832,7 @@
     },
     "index": 5100,
     "id": "ThunderWolf",
+    "name": "Thunder Wolf",
     "image": "ThunderWolf-hd.png",
     "locations": [
       {
@@ -19998,16 +20002,8 @@
         "type": "Offensive.Stun.StunAttack"
       },
       {
-        "name": "Enrage",
-        "type": "Defensive.AttackUpAll"
-      },
-      {
         "name": "Howl",
         "type": "Offensive.Stun.Stun"
-      },
-      {
-        "name": "Claw",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -20033,6 +20029,7 @@
     },
     "index": 7200,
     "id": "SpikeBall",
+    "name": "Spike Ball",
     "image": "SpikeBall-hd.png",
     "locations": [
       {
@@ -20108,6 +20105,7 @@
     },
     "index": 80020,
     "id": "Gamera",
+    "name": "Tortilla",
     "image": "Gamera-hd.png",
     "locations": [
       {
@@ -20171,26 +20169,6 @@
       {
         "name": "ScapeGoat",
         "type": "Defensive.Scapegoat"
-      },
-      {
-        "name": "RapidWater",
-        "type": "Offensive.Water.Water"
-      },
-      {
-        "name": "Shell",
-        "type": "Defensive.GuardUp"
-      },
-      {
-        "name": "VenomClaw",
-        "type": "Offensive.Poison.PoisonAttack"
-      },
-      {
-        "name": "Harden",
-        "type": "Defensive.DefenseUp"
-      },
-      {
-        "name": "ShellSpin",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -20211,6 +20189,7 @@
     },
     "index": 60000,
     "id": "Spikey",
+    "name": "Spikey",
     "image": "Spikey-hd.png",
     "locations": [
       {
@@ -20274,6 +20253,7 @@
     },
     "index": 15650,
     "id": "SnakeGod",
+    "name": "Snake God",
     "image": "SnakeGod-hd.png",
     "locations": [
       {
@@ -20343,10 +20323,6 @@
         "type": "Offensive.Paralyze.Paralyze"
       },
       {
-        "name": "VenomSpray",
-        "type": "Offensive.Poison.PoisonAll"
-      },
-      {
         "name": "VenomSting",
         "type": "Offensive.Poison.PoisonAttack"
       }
@@ -20373,6 +20349,7 @@
     },
     "index": 3400,
     "id": "TurtleKing",
+    "name": "Turtle King",
     "image": "TurtleKing-hd.png",
     "locations": [
       {
@@ -20524,14 +20501,6 @@
       {
         "name": "VenomClaw",
         "type": "Offensive.Poison.PoisonAttack"
-      },
-      {
-        "name": "Harden",
-        "type": "Defensive.DefenseUp"
-      },
-      {
-        "name": "ShellSpin",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -20556,6 +20525,7 @@
     },
     "index": 11700,
     "id": "BatFiend",
+    "name": "Bat Fiend",
     "image": "BatFiend-hd.png",
     "locations": [
       {
@@ -20619,6 +20589,7 @@
     },
     "index": 80010,
     "id": "DonPen",
+    "name": "Don Penguini",
     "image": "DonPen-hd.png",
     "locations": [
       {
@@ -20666,14 +20637,6 @@
       {
         "name": "Charisma",
         "type": "Passive.Aura"
-      },
-      {
-        "name": "Analyze",
-        "type": "Utility.Analyze"
-      },
-      {
-        "name": "Toboggan",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -20694,6 +20657,7 @@
     },
     "index": 20000,
     "id": "Carnoraptor",
+    "name": "Carnoraptor",
     "image": "Carnoraptor-hd.png",
     "locations": [
       {
@@ -20765,6 +20729,7 @@
     },
     "index": 12100,
     "id": "Manticore",
+    "name": "Manticore",
     "image": "Manticore-hd.png",
     "locations": [
       {
@@ -20968,6 +20933,7 @@
     },
     "index": 5800,
     "id": "Kingpen",
+    "name": "Kingpen",
     "image": "Kingpen-hd.png",
     "locations": [
       {
@@ -21003,10 +20969,6 @@
       {
         "name": "Analyze",
         "type": "Utility.Analyze"
-      },
-      {
-        "name": "Toboggan",
-        "type": "Offensive.Attack"
       }
     ]
   },
@@ -21031,6 +20993,7 @@
     },
     "index": 5000,
     "id": "DireWolf",
+    "name": "Dire Wolf",
     "image": "DireWolf-hd.png",
     "locations": [
       {
@@ -21110,6 +21073,7 @@
     },
     "index": 3200,
     "id": "CrabKing",
+    "name": "Crab King",
     "image": "CrabKing-hd.png",
     "locations": [
       {
@@ -21285,6 +21249,7 @@
     },
     "index": 6700,
     "id": "Cockatrice",
+    "name": "Cockatrice",
     "image": "Cockatrice-hd.png",
     "locations": [
       {
@@ -21432,6 +21397,7 @@
     },
     "index": 7300,
     "id": "SpikeCrab",
+    "name": "Spike Crab",
     "image": "SpikeCrab-hd.png",
     "locations": [
       {
@@ -21536,6 +21502,7 @@
     },
     "index": 3500,
     "id": "Bitewing",
+    "name": "Bitewing",
     "image": "Bitewing-hd.png",
     "locations": [
       {
@@ -21632,6 +21599,7 @@
     },
     "index": 4900,
     "id": "Wolf",
+    "name": "Wolf",
     "image": "Wolf-hd.png",
     "locations": [
       {
@@ -21687,6 +21655,7 @@
     },
     "index": 2000,
     "id": "BatKing",
+    "name": "Bat King",
     "image": "BatKing-hd.png",
     "locations": [
       {
@@ -21990,10 +21959,6 @@
       {
         "name": "Tailwind",
         "type": "Defensive.HasteUp"
-      },
-      {
-        "name": "Feed",
-        "type": "Offensive.DrainHealth"
       }
     ]
   },
@@ -22021,6 +21986,7 @@
     },
     "index": 3300,
     "id": "GiantTurtle",
+    "name": "Giant Turtle",
     "image": "GiantTurtle-hd.png",
     "locations": [
       {
@@ -22108,6 +22074,7 @@
     },
     "index": 3800,
     "id": "UnhappyBird",
+    "name": "Unhappy Bird",
     "image": "UnhappyBird-hd.png",
     "locations": [
       {
@@ -22435,6 +22402,7 @@
     },
     "index": 21200,
     "id": "WolfGod",
+    "name": "Wolf God",
     "image": "WolfGod-hd.png",
     "locations": [
       {
