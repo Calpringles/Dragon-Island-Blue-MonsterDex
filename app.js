@@ -5,7 +5,11 @@ let monstersList = [];
 const monsterListEl = document.getElementById('monster-list');
 const searchInput = document.getElementById('search-input');
 const elementFilter = document.getElementById('element-filter');
+const sortFilter = document.getElementById('sort-filter');
+const sortDirBtn = document.getElementById('sort-dir-btn');
 const detailEl = document.getElementById('monster-detail');
+
+let sortAsc = true;
 
 // Init
 async function init() {
@@ -13,11 +17,17 @@ async function init() {
         const response = await fetch('monsters.json');
         monstersData = await response.json();
         
-        // Convert to array and sort alphabetically
-        monstersList = Object.values(monstersData).sort((a, b) => a.id.localeCompare(b.id));
+        // Calculate Base Stat Total and set default sort
+        monstersList = Object.values(monstersData).map(m => {
+            const stats = m.rootStats || {};
+            m.bst = (stats.HP || stats.MaxHP || 0) + (stats.Attack || 0) + (stats.Defense || 0) + (stats.Magic || 0) + (stats.Resist || 0) + (stats.Speed || 0);
+            // Default index for monsters that might not have one
+            if (m.index === undefined) m.index = 99999;
+            return m;
+        });
         
         setupEventListeners();
-        renderList(monstersList);
+        handleFilter(); // Initial sort and render
     } catch (error) {
         console.error("Failed to load monster data:", error);
         monsterListEl.innerHTML = '<div style="padding: 20px; text-align:center;">Failed to load data. Ensure you are running a local server.</div>';
@@ -27,16 +37,46 @@ async function init() {
 function setupEventListeners() {
     searchInput.addEventListener('input', handleFilter);
     elementFilter.addEventListener('change', handleFilter);
+    sortFilter.addEventListener('change', handleFilter);
+    sortDirBtn.addEventListener('click', () => {
+        sortAsc = !sortAsc;
+        sortDirBtn.textContent = sortAsc ? '⬆️' : '⬇️';
+        handleFilter();
+    });
 }
 
 function handleFilter() {
     const searchTerm = searchInput.value.toLowerCase();
     const element = elementFilter.value;
+    const sortType = sortFilter.value;
     
-    const filtered = monstersList.filter(m => {
+    let filtered = monstersList.filter(m => {
         const matchesSearch = m.id.toLowerCase().includes(searchTerm);
         const matchesElement = element === 'All' || m.element === element;
         return matchesSearch && matchesElement;
+    });
+    
+    filtered.sort((a, b) => {
+        let valA, valB;
+        switch(sortType) {
+            case 'name': valA = a.id.toLowerCase(); valB = b.id.toLowerCase(); break;
+            case 'element': valA = a.element || ''; valB = b.element || ''; break;
+            case 'stars': valA = a.stars || 0; valB = b.stars || 0; break;
+            case 'stats': valA = a.bst || 0; valB = b.bst || 0; break;
+            case 'index':
+            default: valA = a.index; valB = b.index; break;
+        }
+        
+        let comparison = 0;
+        if (valA < valB) comparison = -1;
+        if (valA > valB) comparison = 1;
+        
+        // Secondary sort by index if primary is tied
+        if (comparison === 0 && sortType !== 'index') {
+            comparison = a.index - b.index;
+        }
+        
+        return sortAsc ? comparison : -comparison;
     });
     
     renderList(filtered);

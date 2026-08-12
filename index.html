@@ -15,7 +15,7 @@
                 <h1>MonsterDex</h1>
                 <input type="text" id="search-input" placeholder="Search monsters...">
                 
-                <div class="filter-group">
+                <div class="filter-group" style="display:flex; flex-direction:column; gap:8px;">
                     <select id="element-filter">
                         <option value="All">All Elements</option>
                         <option value="Fire">Fire</option>
@@ -23,6 +23,16 @@
                         <option value="Earth">Earth</option>
                         <option value="Air">Air</option>
                     </select>
+                    <div style="display:flex; gap:8px;">
+                        <select id="sort-filter" style="flex:1; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.6); color: var(--text-primary); font-size: 14px; cursor: pointer;">
+                            <option value="index">Index (Default)</option>
+                            <option value="name">Name</option>
+                            <option value="element">Element</option>
+                            <option value="stars">Star Rating</option>
+                            <option value="stats">Base Stats Total</option>
+                        </select>
+                        <button id="sort-dir-btn" style="padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.6); color: var(--text-primary); cursor: pointer; transition: background 0.2s;">⬆️</button>
+                    </div>
                 </div>
             </div>
             
